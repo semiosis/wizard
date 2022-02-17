@@ -1,0 +1,3 @@
+;jenkins;verify-autotest-all\/ log;AssertionError: EBL is not initially uninitialised.
+;jenkins;verify-autotest-all\/ log;AssertionError: Failed to get EBL run mode while switching to calibration. EBL is probably not running.
+;jenkins;verify-autotest-all\/ log;~RTCSeleniumError: Timed out waiting for css selector: #infoModal button.btn.btn-primary to be clickable -6146

@@ -1,0 +1,20 @@
+/media/www/html/croogle/dirs.gv
+
+*   Need a ruby file called sort-by-character.rb that takes stdin and
+    outputs lines sorted by the number of instances of the specified
+    character contained in each line.
+
+    Can I put this logic into php?
+    How much of the logic can I put into php? The entire graphviz
+    filegen?
+
+    *   From sphinx search results, I have a list of file paths.
+        Sort alphanumerically.
+        Then sort by the number of '/' characters.
+        Generate the graphviz file entirely in php.
+
+        natcasesort
+
+        # This is what I want.
+        http://php.net/manual/en/function.uasort.php
+        # How did I find? Google 'php sort callback'.

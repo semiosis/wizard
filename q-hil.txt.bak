@@ -1,0 +1,3 @@
+# why do these break the graphing script?
+;logs;log.txt;SSHException: Error reading SSH protocol banner
+;logs;log.txt;AssertionError: Failed to get EBL run mode while switching to calibration. EBL is probably not running.

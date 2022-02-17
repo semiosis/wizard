@@ -1,0 +1,8 @@
+;jenkins;master-autotest\/ log;AttributeError: 'eblStartUpTest' object has no attribute 'utilities' Exception: timed out waiting for RTM to connect
+;jenkins;master-autotest\/ log;RTCSeleniumError: test_ArchiveLogs Timed out waiting for css selector: #infoModal button.btn.btn-primary to be clickable
+;jenkins;master-autotest\/ log;RTCSeleniumError: Timed out waiting for css selector: #infoModal button.btn.btn-primary to be clickable
+;jenkins;master-autotest\/ log;Exception: timed out waiting for RTM to connect
+;jenkins;master-autotest\/ log;FAIL: testStopViolationTriggered (tests.continuous.test_7_Geo.geoTests) AssertionError: False is not true
+;jenkins;master-autotest\/ log;FAIL: test_bootstrapTruck (tests.aa_setUp.test_1_Startup.eblStartUpTest) AssertionError: No EBL position messages received within 90 seconds of RTM power cycle - EBL auto startup failed
+;jenkins;master-autotest\/ log;AssertionError: Number of detected lights is wrong:
+;jenkins;master-autotest\/ log;No EBL position messages received within 90 seconds of RTM power cycle - EBL auto startup failed

@@ -1,0 +1,745 @@
+html {
+    height: 100%;
+}
+
+body {
+    /*background: #449999 url('img/croogle_small.png') no-repeat top right;*/
+    /*background: #f7f7CC;*/
+    padding: 1.4em 1em 1em 1em;
+    vertical-align: middle;
+    background: #feccb1; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+    /*background-size: contain;*/
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+bodyunused{
+    background: #449999 url('img/IMG_6621.JPG') no-repeat top right;
+}
+
+p {
+    /* Why on earth do I need this? */
+    /* Just stop using p */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+form#search {
+    font-weight: bold;
+    line-height: 1.5em !important;
+    display: inline-block;
+    z-index: 5;
+    white-space: nowrap;
+}
+
+#resultsbg {
+}
+
+#results {
+}
+
+ol.results {
+    display: block;
+    /*position: relative;*/  /* so graph does not flow over into suggestions. needed for hidden to work */
+    /* so graph does not flow over into suggestions */
+    /*overflow: hidden;*/
+    overflow: auto; /* not worth the ugliness */
+    padding-left: 2.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    margin: none;
+
+    background: #f0f0f0;
+    opacity: 0.9;
+    /*border: 1px solid silver;*/
+    border: 3px outset orange;
+    background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=0);
+    /* IE6-9 */
+    margin-bottom: 1em;
+}
+
+ol.results div#doganalysis {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 106px;
+    background: #99f;
+    color: #33f;
+    background-size: auto 50px ;
+    background-position: top center;
+    border: 2px outset #fdf;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: none;
+    background: #fff url('img/cute-dog-pictures-for-kids.jpg') no-repeat;
+    background-size: 30px 30px ;
+}
+
+ol.results div#maxresults {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 66px;
+    background: #99f;
+    color: #33f;
+    background-size: auto 50px ;
+    background-position: top center;
+    border: 2px outset #cdf;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: none;
+    background: #fff url('img/12531602-Wide-eyed-overweight-cat-looking-up-Stock-Photo-cat-shock.jpg') no-repeat;
+    background-size: 30px 30px ;
+}
+
+ol.results div#sick {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 26px;
+    background: #fff url('img/sickscanner_small.png') no-repeat;
+    background-size: auto 50px ;
+    background-position: top center;
+    border: 2px outset #fdc;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: none;
+}
+
+ol.results > div#sick:hover {
+    background: #f66 url('img/sickscanner_small.png') no-repeat;
+    background-size: auto 50px ;
+    background-position: top center;
+}
+
+ol.results li {
+    font-size: 0.9em;
+    color: #999;
+    color: black;
+    margin: none;
+    /* position and z-index must both be set for absolute svg image to be placed
+     * behind relative positioned li elements */
+    /*http://stackoverflow.com/questions/22151271/placing-absolute-behind-relative-positioned-element*/
+    position: relative;
+    z-index: 5;
+    white-space: nowrap;
+}
+
+/*
+ol.results li:hover {
+    opacity: 1.0 !important;
+}
+*/
+
+ol.results li.trans {
+    opacity: 0.7;
+}
+
+ol.results li span {
+    padding: 0.1em 0.2em;
+    border-bottom: 2px solid #999;
+    background: #eee;
+}
+
+ol.results li a {
+    /*font-weight:bold;*/
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: none;
+    /*padding: 0.1em 0.2em;*/
+    color: #66f;
+    /*color: black;*/
+}
+
+ol.results li span a:last-child {
+    background: #eee;
+}
+
+ol.results li span a:last-child:hover {
+    background: #66f;
+}
+
+div.pages {
+    color: white;
+    font-weight: bold;
+    margin: none;
+    /*margin-left: 0.3em;*/
+
+    margin-top: 1.1em;
+    display: block;
+    /*display: inline-block;*/
+    /* IE needs this 2 lines to do inline-block on a div */
+    /*
+    zoom:1;
+    *display:inline; // this is meant to have an asterisk at the start
+    */
+}
+
+.pages a {
+    font-weight: normal;
+    display: inline-block;
+    color: #0f0;
+    text-decoration: none;
+    padding: 4px 0.8em;
+    margin: 2px;
+    background-color: #666;
+    min-width: 1.4em;
+    text-align: center;
+    color: white;
+    background-color: #224444;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.pages a:hover {
+    background: #224444 url('img/pickup_small_i.png') no-repeat bottom left;
+}
+
+.pages b {
+    display: inline-block;
+    padding: 4px 0.8em;
+    margin: 2px;
+    color: white;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    min-width: 1.4em;
+    text-align: center;
+    background: #4488FF url('img/pickup_small.png') no-repeat bottom left;
+}
+
+/*
+#results {
+    border: 1px solid blue;
+}
+*/
+
+pre.results {
+    padding: 1em;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    background: url('img/black0.1.png') repeat;
+}
+
+.bluetext {
+    color: white;
+    font-weight:bold;
+}
+
+.greytext {
+    color: orange;
+    color: white;
+}
+
+#fileresults {
+    width: 100%;
+}
+
+#suggestions {
+    padding: 0.5em 0.5em;
+    /*background: #f0f0f0;*/
+    color: #fff;
+    background: url('img/black0.1.png') repeat;
+    opacity: 0.6;
+}
+
+#suggestions a {
+    display: inline-block;
+    color: #fff;
+    margin: 0.5em;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+#suggestions a:hover {
+    background: #66f;
+    color: white;
+    border: 1px solid white;
+}
+
+#suggestions span.fadedtext {
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin: 0.2em 0em 0.2em 0em;
+    padding: 0.2em 0.5em;
+}
+
+#suggestions span.boldened {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    background: black;
+    margin: 0.2em 0.5em 0.2em 0.0em;
+    padding: 0.2em 0.5em;
+}
+
+#suggestions div.suggestionssep {
+    display: inline-block;
+    font-weight: normal;
+    margin: 0.2em 0.5em;
+    padding: 0.2em 0.5em;
+    background:white;
+    color: brown;
+}
+
+#cleared {
+    clear: both;
+}
+
+#hitcounter {
+    padding: 0em 0.5em;
+    background: white;
+    display: inline-block;
+    opacity: 0.5;
+    margin: 1.4em 1em 0em 0em;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+ol.results li {
+    margin: 1em 0em;
+    font-weight: bold;
+}
+
+ol.results a:hover {
+    background: #66f;
+    color: white;
+}
+
+ol.results a {
+}
+
+ol.results a.asearch {
+    background: #f7f7f7 url('img/Search-icon.png') no-repeat;
+    color: #999;
+}
+
+ol.results a.copypath {
+    background: #99f;
+}
+
+ol.results a.stash {
+    background: #e7b707 url('img/stash.png') no-repeat;
+}
+
+ol.results a.vim {
+    background: #07e707 url('img/vim.png') no-repeat;
+}
+
+ol.results a.xdg {
+    background: #6767f7 url('img/xdg-open-small.png') no-repeat;
+}
+
+ol.results a.eclipse {
+    background: #c747f7 url('img/eclipse.png') no-repeat;
+}
+
+ol.results a.asearch,
+ol.results a.copypath,
+ol.results a.stash,
+ol.results a.vim,
+ol.results a.xdg,
+ol.results a.eclipse {
+    display: inline-block;
+    background-size: 16px 16px;
+    background-position: 0.2em center;
+    padding: 0.1em 0.3em 0.1em 1.5em;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 3px #ccc;
+}
+
+ol.results a.asearch {
+    color: #999;
+}
+
+ol.results a.copypath {
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+span.path {
+    color: #888;
+    font-weight: normal;
+}
+
+#user {
+    padding: 0.1em 0.2em;
+    background: white;
+    color: #f0f;
+    display: inline-block;
+    opacity: 0.7;
+    float: right;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+a#cls {
+    background: url('img/clear_tiny2.png') no-repeat right -0.1em;
+    vertical-align: middle;
+    color: #666;
+    display:inline-block;
+    width: 4.7em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-decoration: none;
+    background-size: 1.5em 1.5em;
+    margin-left: -5.3em;
+    margin-bottom: 0.0em;
+    opacity:0.2;
+}
+
+a#permalink {
+    margin-left: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+input#superbar {
+    background: #ffffff url('img/forklift-sc5300-index-tn-L-small.png') no-repeat 0.3em center;
+    background-size: 16px 16px;
+    padding: 0.2em 0.4em 0.2em 1.7em;
+    width: 350px;
+    border: 2px solid inset;
+}
+
+form.getcrooglesh {
+    margin-top: 1.2em;
+    margin-right: 7em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+form.getcrooglesh:hover {
+    background: orange;
+}
+
+form.getcrooglesh * {
+    opacity: 0.4;
+}
+
+ol.results a.pointer {
+    margin-right: 0;
+    margin: 0.5em 0.1em 0.3em 0.1em;
+    padding: 0.1em 0.3em;
+    background: #66f;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid #eee;;
+}
+
+ol.results a.pointer:hover {
+    background: white;
+    color: #449;
+    border-right: 2px solid #66f;
+}
+
+ol.results a.pointera {
+    margin-right: 0;
+    margin: 0.5em 0.1em 0.3em 0.1em;
+    padding: 0.1em 0.3em;
+    background: #f66;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid #eee;
+}
+
+ol.results a.pointera:hover {
+    background: white;
+    color: #944;
+    border-right: 2px solid #66f;
+}
+
+ol.results code {
+    display: inline-block;
+    background: white;
+    /*border: 1px solid #ccc;*/
+    padding: 0.1em 0.3em;
+    margin: 0.5em 0.1em 0.3em 0.1em;
+    color: #999;
+    font-weight: normal;
+    border-radius: 0.2em;
+}
+
+ol.results code a {
+    color: #449;
+    font-weight: normal;
+    text-decoration: none;
+    padding: none;
+    margin: none;
+    display: inline;
+    /*border: 1px solid #eee;*/
+    background: #fafafa;
+}
+
+ol.results code a:hover {
+    background: #66f;
+    color: white;
+}
+
+* {
+    font-size: 14px !important;
+    line-height: 1.3em !important;
+    font-family: Ubuntu, sans-serif !important;
+    text-shadow: none !important;
+}
+
+div.rainbow {
+    background: black;
+    border-radius: 0.4em;
+    display: inline-block;
+    padding: 0.15em 0.6em 0.25em 0.6em;
+    margin-bottom: 0.10em;
+    opacity: 0.5;
+    /*
+     * max-width: 20em;
+     * overflow: hidden;
+     * */
+
+    /* IE needs this 2 lines to do inline-block on a div */
+    zoom:1;
+    *display:inline;
+}
+
+span.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@-moz-document url-prefix() { 
+    div.rainbow {
+        /*background: none;*/
+        background: #666;
+        padding: 0.1em 0.4em;
+    }
+    span.rainbow {
+        color: white;
+    }
+}
+
+span.fade {
+    opacity: 0.8;
+}
+
+/*
+.rainbow {
+ display:inline-block;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:black;
+  font-weight: bold;
+}
+*/
+
+#crooglelogo {
+    background: url('img/croogle_small.png') no-repeat bottom left;
+    display: inline-block;
+    left: 0;
+    bottom: 1em;
+    position: fixed;
+    width: 500px;
+    height: 80px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+#indices {
+    display:inline-block;
+    /*margin-left: 0.3em;*/
+
+    /* IE needs this 2 lines to do inline-block on a div */
+    zoom:1;
+    *display:inline;
+}
+
+#indices .index {
+    display:inline-block;
+    margin: 2px;
+    color: white;
+    background-color: #ff4488;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    min-width: 1.4em;
+    text-align: center;
+    padding: 0.5em 0.9em;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+
+    /* IE needs this 2 lines to do inline-block on a div */
+    zoom:1;
+    *display:inline;
+    cursor: pointer;
+}
+
+#indices .index.current, #indices .index.current:hover {
+    background: #88cc44 url('img/pickup_small.png') no-repeat bottom left;
+    cursor: auto;
+}
+
+#indices .index:hover {
+    background: #ff4488 url('img/pickup_small_i.png') no-repeat bottom left;
+}
+
+a.query {
+    /* Do not change from inline. It allows me to make fat links */
+    /*border: 1px solid #f90;*/
+    border: 1px solid #f60;
+    border-radius: 0.4em;
+    padding: 3px 5px !important;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    display: inline-block;
+    background: #fcc !important;
+    color: #22f !important;
+    opacity: 0.7;
+}
+
+a.query:hover {
+    border: 1px solid #66f;
+    color: white !important;
+    background: #66f !important;
+}
+
+img, svg {
+    /*position: absolute;*/
+    float: right;
+    /* the svg is at fault. no easy way to crop an svg */
+    /*border: 1px solid red;*/
+    display: inline-block;
+    right: 2em;
+    z-index: 1;
+}
+
+
+#noresultsindices {
+    display: block;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+#noresultsindices #indices .index {
+    padding: 1em 3.2em;
+}
+
+.indexhits {
+    position: absolute;
+    margin-top: 1.25em;
+    margin-left: -0.6em;
+    font-weight: bold;
+    background: #ff4488;
+    border-radius: 0.2em;
+    padding: 0.1em 0.4em 0.0em 0.4em;
+    color: #ff;
+    opacity: 0.7;
+}
+
+#indices .index.current .indexhits {
+    background: #88cc44;
+    opacity: 0.8;
+}
+
+#noresultsindices #indices .index .indexhits {
+    padding: 0.2em 1em;
+    margin-top: 2em;
+}
+
+#queryfailed {
+    color: pink;
+    font-weight: bold;
+}
+
+#nothingrelated {
+    /*background: black;*/
+    /*color: yellow;*/
+    /*opacity: 0.3;*/
+    /*
+    font-weight:bold;
+    float: right;
+    */
+    /*border-radius: 0.5em;
+    box-shadow: 0px 4px 8px #ff0;*/
+}
+
+.bar rect {
+  fill: steelblue;
+}
+
+.bar text {
+  fill: #fff;
+  font: 10px sans-serif;
+}
+
+.ui-tooltip {
+    /*position: absolute !important;*/
+    opacity: 0.8;
+    font-weight: bold;
+    background: #222 !important;
+    border-radius: 0.2em !important;
+    color: #6d6 !important;
+    box-shadow: 1px 1px 3px #000 !important;
+}
+
+#queryhelp span {
+    display: inline-block;
+    background: #000;
+    border: 2px solid black;
+    color: #fff;
+    opacity: 0.5;
+    padding: 0.2em 1em;
+    width: 350px;
+    text-align: center;
+    padding: 0.2em 0.4em 0.2em 1.7em;
+}
+
+#queryhelp span em {
+    display:inline-block !important;
+    background: #000;
+    color: white;
+    font-weight:bold;
+    padding: 0.0em 0.1em 0.0em 0.1em;
+}
+#toprow {
+    white-space: nowrap;
+}
+ol.results li span.linenum {
+    color: #aaf;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    background:none;
+    border-radius: 0.2em;
+}

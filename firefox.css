@@ -1,0 +1,6 @@
+@-moz-document url-prefix() { 
+    span.rainbow {
+        color: white;
+        background: none;
+    }
+}

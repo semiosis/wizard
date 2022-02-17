@@ -1,0 +1,31 @@
+// http://oi40.tinypic.com/2zqwl6g.jpg
+digraph g{
+  cli-multisearch-hil.sh -> cli-search-hil.php
+  aout -> co
+  aout -> bo
+  aout -> ao
+  co -> ccpp
+  bo -> bcpp
+  ao -> acpp
+  ccpp -> ch
+  bcpp -> bh
+  acpp -> ah
+  aout -> maino
+  maino -> maincpp
+  maincpp -> ch
+  maincpp -> bh
+  ch -> ah
+  bh -> ah
+  aout [label="a.out",shape=box,style=rounded];
+  co [label="C.o",shape=box,style=rounded];
+  ccpp [label="C.cpp",shape=box,style=rounded];
+  ch [label="C.h",shape=box,style=rounded];
+  bo [label="B.o",shape=box,style=rounded];
+  bcpp [label="B.cpp",shape=box,style=rounded];
+  bh [label="B.h",shape=box,style=rounded];
+  ao [label="A.o",shape=box,style=rounded];
+  acpp [label="A.cpp",shape=box,style=rounded];
+  ah [label="A.h",shape=box,style=rounded];
+  maino [label="main.o",shape=box,style=rounded];
+  maincpp [label="main.cpp",shape=box,style=rounded];
+}

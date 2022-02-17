@@ -1,0 +1,3 @@
+#!/bin/bash
+curl "http://stash.rtc.crownlift.net/projects/PROJECTS" 2>/dev/null | html-beautify | grep "data-repository-id" | sed 's/.*data-repository-id="[0-9]\+">\(.\+\)<\/a.*/\1/' > /media/www/html/croogle/projects.txt
+curl "http://stash.rtc.crownlift.net/projects/ECLONE" 2>/dev/null | html-beautify | grep "data-repository-id" | sed 's/.*data-repository-id="[0-9]\+">\(.\+\)<\/a.*/\1/' > /media/www/html/croogle/thirdparty.txt

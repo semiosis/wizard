@@ -1,0 +1,785 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddQuery	sphinxapi.php	/^	function AddQuery ( $query, $index="*", $comment="" )$/;"	f
+BuildExcerpts	sphinxapi.php	/^	function BuildExcerpts ( $docs, $index, $words, $opts=array() )$/;"	f
+BuildKeywords	sphinxapi.php	/^	function BuildKeywords ( $query, $index, $hits )$/;"	f
+C	sphinxapi.php	/^		$C = 100000;$/;"	v
+CONF	cli-search-hil.php	/^$CONF = array();$/;"	v
+CONF	cli-search.php	/^$CONF = array();$/;"	v
+CONF	search.php	/^$CONF = array();$/;"	v
+Close	sphinxapi.php	/^	function Close()$/;"	f
+EscapeString	sphinxapi.php	/^	function EscapeString ( $string )$/;"	f
+FlushAttributes	sphinxapi.php	/^	function FlushAttributes ()$/;"	f
+GetLastError	sphinxapi.php	/^	function GetLastError ()$/;"	f
+GetLastWarning	sphinxapi.php	/^	function GetLastWarning ()$/;"	f
+IsConnectError	sphinxapi.php	/^	function IsConnectError()$/;"	f
+Open	sphinxapi.php	/^	function Open()$/;"	f
+Query	sphinxapi.php	/^	function Query ( $query, $index="*", $comment="" )$/;"	f
+ResetFilters	sphinxapi.php	/^	function ResetFilters ()$/;"	f
+ResetGroupBy	sphinxapi.php	/^	function ResetGroupBy ()$/;"	f
+ResetOverrides	sphinxapi.php	/^	function ResetOverrides ()$/;"	f
+RunQueries	sphinxapi.php	/^	function RunQueries ()$/;"	f
+SEARCHD_COMMAND_EXCERPT	sphinxapi.php	/^define ( "SEARCHD_COMMAND_EXCERPT",		1 );$/;"	d
+SEARCHD_COMMAND_FLUSHATTRS	sphinxapi.php	/^define ( "SEARCHD_COMMAND_FLUSHATTRS",	7 );$/;"	d
+SEARCHD_COMMAND_KEYWORDS	sphinxapi.php	/^define ( "SEARCHD_COMMAND_KEYWORDS",	3 );$/;"	d
+SEARCHD_COMMAND_PERSIST	sphinxapi.php	/^define ( "SEARCHD_COMMAND_PERSIST",		4 );$/;"	d
+SEARCHD_COMMAND_SEARCH	sphinxapi.php	/^define ( "SEARCHD_COMMAND_SEARCH",		0 );$/;"	d
+SEARCHD_COMMAND_STATUS	sphinxapi.php	/^define ( "SEARCHD_COMMAND_STATUS",		5 );$/;"	d
+SEARCHD_COMMAND_UPDATE	sphinxapi.php	/^define ( "SEARCHD_COMMAND_UPDATE",		2 );$/;"	d
+SEARCHD_ERROR	sphinxapi.php	/^define ( "SEARCHD_ERROR",			1 );$/;"	d
+SEARCHD_OK	sphinxapi.php	/^define ( "SEARCHD_OK",				0 );$/;"	d
+SEARCHD_RETRY	sphinxapi.php	/^define ( "SEARCHD_RETRY",			2 );$/;"	d
+SEARCHD_WARNING	sphinxapi.php	/^define ( "SEARCHD_WARNING",			3 );$/;"	d
+SPH_ATTR_BIGINT	sphinxapi.php	/^define ( "SPH_ATTR_BIGINT",			6 );$/;"	d
+SPH_ATTR_BOOL	sphinxapi.php	/^define ( "SPH_ATTR_BOOL",			4 );$/;"	d
+SPH_ATTR_FLOAT	sphinxapi.php	/^define ( "SPH_ATTR_FLOAT",			5 );$/;"	d
+SPH_ATTR_INTEGER	sphinxapi.php	/^define ( "SPH_ATTR_INTEGER",		1 );$/;"	d
+SPH_ATTR_MULTI	sphinxapi.php	/^define ( "SPH_ATTR_MULTI",			0x40000001 );$/;"	d
+SPH_ATTR_MULTI64	sphinxapi.php	/^define ( "SPH_ATTR_MULTI64",			0x40000002 );$/;"	d
+SPH_ATTR_ORDINAL	sphinxapi.php	/^define ( "SPH_ATTR_ORDINAL",		3 );$/;"	d
+SPH_ATTR_STRING	sphinxapi.php	/^define ( "SPH_ATTR_STRING",			7 );$/;"	d
+SPH_ATTR_TIMESTAMP	sphinxapi.php	/^define ( "SPH_ATTR_TIMESTAMP",		2 );$/;"	d
+SPH_FILTER_FLOATRANGE	sphinxapi.php	/^define ( "SPH_FILTER_FLOATRANGE",	2 );$/;"	d
+SPH_FILTER_RANGE	sphinxapi.php	/^define ( "SPH_FILTER_RANGE",		1 );$/;"	d
+SPH_FILTER_VALUES	sphinxapi.php	/^define ( "SPH_FILTER_VALUES",		0 );$/;"	d
+SPH_GROUPBY_ATTR	sphinxapi.php	/^define ( "SPH_GROUPBY_ATTR",		4 );$/;"	d
+SPH_GROUPBY_ATTRPAIR	sphinxapi.php	/^define ( "SPH_GROUPBY_ATTRPAIR",	5 );$/;"	d
+SPH_GROUPBY_DAY	sphinxapi.php	/^define ( "SPH_GROUPBY_DAY",			0 );$/;"	d
+SPH_GROUPBY_MONTH	sphinxapi.php	/^define ( "SPH_GROUPBY_MONTH",		2 );$/;"	d
+SPH_GROUPBY_WEEK	sphinxapi.php	/^define ( "SPH_GROUPBY_WEEK",		1 );$/;"	d
+SPH_GROUPBY_YEAR	sphinxapi.php	/^define ( "SPH_GROUPBY_YEAR",		3 );$/;"	d
+SPH_MATCH_ALL	sphinxapi.php	/^define ( "SPH_MATCH_ALL",			0 );$/;"	d
+SPH_MATCH_ANY	sphinxapi.php	/^define ( "SPH_MATCH_ANY",			1 );$/;"	d
+SPH_MATCH_BOOLEAN	sphinxapi.php	/^define ( "SPH_MATCH_BOOLEAN",		3 );$/;"	d
+SPH_MATCH_EXTENDED	sphinxapi.php	/^define ( "SPH_MATCH_EXTENDED",		4 );$/;"	d
+SPH_MATCH_EXTENDED2	sphinxapi.php	/^define ( "SPH_MATCH_EXTENDED2",		6 );	\/\/ extended engine V2 (TEMPORARY, WILL BE REMOVED)$/;"	d
+SPH_MATCH_FULLSCAN	sphinxapi.php	/^define ( "SPH_MATCH_FULLSCAN",		5 );$/;"	d
+SPH_MATCH_PHRASE	sphinxapi.php	/^define ( "SPH_MATCH_PHRASE",		2 );$/;"	d
+SPH_RANK_BM25	sphinxapi.php	/^define ( "SPH_RANK_BM25",			1 );	\/\/\/< statistical mode, BM25 ranking only (faster but worse quality)$/;"	d
+SPH_RANK_EXPR	sphinxapi.php	/^define ( "SPH_RANK_EXPR",			8 );$/;"	d
+SPH_RANK_FIELDMASK	sphinxapi.php	/^define ( "SPH_RANK_FIELDMASK",		6 );$/;"	d
+SPH_RANK_MATCHANY	sphinxapi.php	/^define ( "SPH_RANK_MATCHANY",		5 );$/;"	d
+SPH_RANK_NONE	sphinxapi.php	/^define ( "SPH_RANK_NONE",			2 );	\/\/\/< no ranking, all matches get a weight of 1$/;"	d
+SPH_RANK_PROXIMITY	sphinxapi.php	/^define ( "SPH_RANK_PROXIMITY",		4 );$/;"	d
+SPH_RANK_PROXIMITY_BM25	sphinxapi.php	/^define ( "SPH_RANK_PROXIMITY_BM25",	0 );	\/\/\/< default mode, phrase proximity major factor and BM25 minor one$/;"	d
+SPH_RANK_SPH04	sphinxapi.php	/^define ( "SPH_RANK_SPH04",			7 );$/;"	d
+SPH_RANK_TOTAL	sphinxapi.php	/^define ( "SPH_RANK_TOTAL",			9 );$/;"	d
+SPH_RANK_WORDCOUNT	sphinxapi.php	/^define ( "SPH_RANK_WORDCOUNT",		3 );	\/\/\/< simple word-count weighting, rank is a weighted sum of per-field keyword occurence counts$/;"	d
+SPH_SORT_ATTR_ASC	sphinxapi.php	/^define ( "SPH_SORT_ATTR_ASC",		2 );$/;"	d
+SPH_SORT_ATTR_DESC	sphinxapi.php	/^define ( "SPH_SORT_ATTR_DESC",		1 );$/;"	d
+SPH_SORT_EXPR	sphinxapi.php	/^define ( "SPH_SORT_EXPR", 			5 );$/;"	d
+SPH_SORT_EXTENDED	sphinxapi.php	/^define ( "SPH_SORT_EXTENDED", 		4 );$/;"	d
+SPH_SORT_RELEVANCE	sphinxapi.php	/^define ( "SPH_SORT_RELEVANCE",		0 );$/;"	d
+SPH_SORT_TIME_SEGMENTS	sphinxapi.php	/^define ( "SPH_SORT_TIME_SEGMENTS", 	3 );$/;"	d
+SetArrayResult	sphinxapi.php	/^	function SetArrayResult ( $arrayresult )$/;"	f
+SetConnectTimeout	sphinxapi.php	/^	function SetConnectTimeout ( $timeout )$/;"	f
+SetFieldWeights	sphinxapi.php	/^	function SetFieldWeights ( $weights )$/;"	f
+SetFilter	sphinxapi.php	/^	function SetFilter ( $attribute, $values, $exclude=false )$/;"	f
+SetFilterFloatRange	sphinxapi.php	/^	function SetFilterFloatRange ( $attribute, $min, $max, $exclude=false )$/;"	f
+SetFilterRange	sphinxapi.php	/^	function SetFilterRange ( $attribute, $min, $max, $exclude=false )$/;"	f
+SetGeoAnchor	sphinxapi.php	/^	function SetGeoAnchor ( $attrlat, $attrlong, $lat, $long )$/;"	f
+SetGroupBy	sphinxapi.php	/^	function SetGroupBy ( $attribute, $func, $groupsort="@group desc" )$/;"	f
+SetGroupDistinct	sphinxapi.php	/^	function SetGroupDistinct ( $attribute )$/;"	f
+SetIDRange	sphinxapi.php	/^	function SetIDRange ( $min, $max )$/;"	f
+SetIndexWeights	sphinxapi.php	/^	function SetIndexWeights ( $weights )$/;"	f
+SetLimits	sphinxapi.php	/^	function SetLimits ( $offset, $limit, $max=0, $cutoff=0 )$/;"	f
+SetMatchMode	sphinxapi.php	/^	function SetMatchMode ( $mode )$/;"	f
+SetMaxQueryTime	sphinxapi.php	/^	function SetMaxQueryTime ( $max )$/;"	f
+SetOverride	sphinxapi.php	/^	function SetOverride ( $attrname, $attrtype, $values )$/;"	f
+SetRankingMode	sphinxapi.php	/^	function SetRankingMode ( $ranker, $rankexpr="" )$/;"	f
+SetRetries	sphinxapi.php	/^	function SetRetries ( $count, $delay=0 )$/;"	f
+SetSelect	sphinxapi.php	/^	function SetSelect ( $select )$/;"	f
+SetServer	sphinxapi.php	/^	function SetServer ( $host, $port = 0 )$/;"	f
+SetSortMode	sphinxapi.php	/^	function SetSortMode ( $mode, $sortby="" )$/;"	f
+SetWeights	sphinxapi.php	/^	function SetWeights ( $weights )$/;"	f
+SphinxClient	sphinxapi.php	/^	function SphinxClient ()$/;"	f
+SphinxClient	sphinxapi.php	/^class SphinxClient$/;"	c
+Status	sphinxapi.php	/^	function Status ()$/;"	f
+UpdateAttributes	sphinxapi.php	/^	function UpdateAttributes ( $index, $attrs, $values, $mva=false )$/;"	f
+VER_COMMAND_EXCERPT	sphinxapi.php	/^define ( "VER_COMMAND_EXCERPT",		0x104 );$/;"	d
+VER_COMMAND_FLUSHATTRS	sphinxapi.php	/^define ( "VER_COMMAND_FLUSHATTRS",	0x100 );$/;"	d
+VER_COMMAND_KEYWORDS	sphinxapi.php	/^define ( "VER_COMMAND_KEYWORDS",	0x100 );$/;"	d
+VER_COMMAND_QUERY	sphinxapi.php	/^define ( "VER_COMMAND_QUERY",		0x100 );$/;"	d
+VER_COMMAND_SEARCH	sphinxapi.php	/^define ( "VER_COMMAND_SEARCH",		0x119 );$/;"	d
+VER_COMMAND_STATUS	sphinxapi.php	/^define ( "VER_COMMAND_STATUS",		0x100 );$/;"	d
+VER_COMMAND_UPDATE	sphinxapi.php	/^define ( "VER_COMMAND_UPDATE",		0x102 );$/;"	d
+_Connect	sphinxapi.php	/^	function _Connect ()$/;"	f
+_GetResponse	sphinxapi.php	/^	function _GetResponse ( $fp, $client_ver )$/;"	f
+_MBPop	sphinxapi.php	/^	function _MBPop ()$/;"	f
+_MBPush	sphinxapi.php	/^	function _MBPush ()$/;"	f
+_PackFloat	sphinxapi.php	/^	function _PackFloat ( $f )$/;"	f
+_ParseSearchResponse	sphinxapi.php	/^	function _ParseSearchResponse ( $response, $nreqs )$/;"	f
+_Send	sphinxapi.php	/^	function _Send ( $handle, $data, $length )$/;"	f
+__destruct	sphinxapi.php	/^	function __destruct()$/;"	f
+_anchor	sphinxapi.php	/^		$this->_anchor		= array ();$/;"	v
+_anchor	sphinxapi.php	/^		$this->_anchor = array ( "attrlat"=>$attrlat, "attrlong"=>$attrlong, "lat"=>$lat, "long"=>$long );$/;"	v
+_anchor	sphinxapi.php	/^		$this->_anchor = array();$/;"	v
+_anchor	sphinxapi.php	/^	var $_anchor;		\/\/\/< geographical anchor point$/;"	v
+_arrayresult	sphinxapi.php	/^		$this->_arrayresult	= false;$/;"	v
+_arrayresult	sphinxapi.php	/^		$this->_arrayresult = $arrayresult;$/;"	v
+_arrayresult	sphinxapi.php	/^	var $_arrayresult;	\/\/\/< whether $result["matches"] should be a hash or an array$/;"	v
+_connerror	sphinxapi.php	/^			$this->_connerror = true;$/;"	v
+_connerror	sphinxapi.php	/^		$this->_connerror	= false;$/;"	v
+_connerror	sphinxapi.php	/^		$this->_connerror = false;$/;"	v
+_connerror	sphinxapi.php	/^	var $_connerror;		\/\/\/< connection error vs remote error flag$/;"	v
+_cutoff	sphinxapi.php	/^			$this->_cutoff = $cutoff;$/;"	v
+_cutoff	sphinxapi.php	/^		$this->_cutoff		= 0;$/;"	v
+_cutoff	sphinxapi.php	/^	var $_cutoff;		\/\/\/< cutoff to stop searching at (default is 0)$/;"	v
+_error	sphinxapi.php	/^				$this->_error = "incomplete reply";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "connection to $location failed (errno=$errno, msg=$errstr)";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "expected searchd protocol version 1+, got version '$v'";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "failed to send client protocol version";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "no queries defined, issue AddQuery() first";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "searchd error: " . substr ( $response, 4 );$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "temporary searchd error: " . substr ( $response, 4 );$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "unexpected response length";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = "unknown status code '$status'";$/;"	v
+_error	sphinxapi.php	/^			$this->_error = $len$/;"	v
+_error	sphinxapi.php	/^			$this->_error = 'already connected';$/;"	v
+_error	sphinxapi.php	/^			$this->_error = 'connection unexpectedly closed (timed out?)';$/;"	v
+_error	sphinxapi.php	/^			$this->_error = 'not connected';$/;"	v
+_error	sphinxapi.php	/^		$this->_error		= ""; \/\/ per-reply fields (for single-query case)$/;"	v
+_error	sphinxapi.php	/^		$this->_error = $results[0]["error"];$/;"	v
+_error	sphinxapi.php	/^	var $_error;		\/\/\/< last error message$/;"	v
+_fieldweights	sphinxapi.php	/^		$this->_fieldweights = $weights;$/;"	v
+_fieldweights	sphinxapi.php	/^		$this->_fieldweights= array();$/;"	v
+_fieldweights	sphinxapi.php	/^	var $_fieldweights;	\/\/\/< per-field-name weights$/;"	v
+_filters	sphinxapi.php	/^		$this->_filters		= array ();$/;"	v
+_filters	sphinxapi.php	/^		$this->_filters = array();$/;"	v
+_filters	sphinxapi.php	/^	var $_filters;		\/\/\/< search filters$/;"	v
+_groupby	sphinxapi.php	/^		$this->_groupby		= "";$/;"	v
+_groupby	sphinxapi.php	/^		$this->_groupby = $attribute;$/;"	v
+_groupby	sphinxapi.php	/^	var $_groupby;		\/\/\/< group-by attribute name$/;"	v
+_groupdistinct	sphinxapi.php	/^		$this->_groupdistinct = $attribute;$/;"	v
+_groupdistinct	sphinxapi.php	/^		$this->_groupdistinct= "";$/;"	v
+_groupdistinct	sphinxapi.php	/^	var $_groupdistinct;\/\/\/< group-by count-distinct attribute$/;"	v
+_groupfunc	sphinxapi.php	/^		$this->_groupfunc	= SPH_GROUPBY_DAY;$/;"	v
+_groupfunc	sphinxapi.php	/^		$this->_groupfunc = $func;$/;"	v
+_groupfunc	sphinxapi.php	/^	var $_groupfunc;	\/\/\/< group-by function (to pre-process group-by attribute value with)$/;"	v
+_groupsort	sphinxapi.php	/^		$this->_groupsort	= "@group desc";$/;"	v
+_groupsort	sphinxapi.php	/^		$this->_groupsort = $groupsort;$/;"	v
+_groupsort	sphinxapi.php	/^	var $_groupsort;	\/\/\/< group-by sorting clause (to sort groups in result set with)$/;"	v
+_host	sphinxapi.php	/^		$this->_host		= "localhost";$/;"	v
+_host	sphinxapi.php	/^		$this->_host = $host;$/;"	v
+_host	sphinxapi.php	/^	var $_host;			\/\/\/< searchd host (default is "localhost")$/;"	v
+_indexweights	sphinxapi.php	/^		$this->_indexweights = $weights;$/;"	v
+_indexweights	sphinxapi.php	/^		$this->_indexweights= array ();$/;"	v
+_indexweights	sphinxapi.php	/^	var $_indexweights;	\/\/\/< per-index weights$/;"	v
+_limit	sphinxapi.php	/^		$this->_limit		= 20;$/;"	v
+_limit	sphinxapi.php	/^		$this->_limit = $limit;$/;"	v
+_limit	sphinxapi.php	/^	var $_limit;		\/\/\/< how many records to return from result-set starting at offset (default is 20)$/;"	v
+_max_id	sphinxapi.php	/^		$this->_max_id		= 0;$/;"	v
+_max_id	sphinxapi.php	/^		$this->_max_id = $max;$/;"	v
+_max_id	sphinxapi.php	/^	var $_max_id;		\/\/\/< max ID to match (default is 0, which means no limit)$/;"	v
+_maxmatches	sphinxapi.php	/^			$this->_maxmatches = $max;$/;"	v
+_maxmatches	sphinxapi.php	/^		$this->_maxmatches	= 1000;$/;"	v
+_maxmatches	sphinxapi.php	/^	var $_maxmatches;	\/\/\/< max matches to retrieve$/;"	v
+_maxquerytime	sphinxapi.php	/^		$this->_maxquerytime = $max;$/;"	v
+_maxquerytime	sphinxapi.php	/^		$this->_maxquerytime= 0;$/;"	v
+_maxquerytime	sphinxapi.php	/^	var $_maxquerytime;	\/\/\/< max query time, milliseconds (default is 0, do not limit)$/;"	v
+_mbenc	sphinxapi.php	/^			$this->_mbenc = mb_internal_encoding();$/;"	v
+_mbenc	sphinxapi.php	/^		$this->_mbenc		= "";$/;"	v
+_mbenc	sphinxapi.php	/^		$this->_mbenc = "";$/;"	v
+_mbenc	sphinxapi.php	/^	var $_mbenc;		\/\/\/< stored mbstring encoding$/;"	v
+_min_id	sphinxapi.php	/^		$this->_min_id		= 0;$/;"	v
+_min_id	sphinxapi.php	/^		$this->_min_id = $min;$/;"	v
+_min_id	sphinxapi.php	/^	var $_min_id;		\/\/\/< min ID to match (default is 0, which means no limit)$/;"	v
+_mode	sphinxapi.php	/^		$this->_mode		= SPH_MATCH_ALL;$/;"	v
+_mode	sphinxapi.php	/^		$this->_mode = $mode;$/;"	v
+_mode	sphinxapi.php	/^	var $_mode;			\/\/\/< query matching mode (default is SPH_MATCH_ALL)$/;"	v
+_offset	sphinxapi.php	/^		$this->_offset		= 0;$/;"	v
+_offset	sphinxapi.php	/^		$this->_offset = $offset;$/;"	v
+_offset	sphinxapi.php	/^	var $_offset;		\/\/\/< how many records to seek from result-set start (default is 0)$/;"	v
+_overrides	sphinxapi.php	/^		$this->_overrides 	= array();$/;"	v
+_overrides	sphinxapi.php	/^	var $_overrides;	\/\/\/< per-query attribute values overrides$/;"	v
+_overrides	sphinxapi.php	/^    	$this->_overrides = array ();$/;"	v
+_path	sphinxapi.php	/^			$this->_path = $host;$/;"	v
+_path	sphinxapi.php	/^			$this->_path = 'unix:\/\/' . $host;$/;"	v
+_path	sphinxapi.php	/^		$this->_path		= false;$/;"	v
+_path	sphinxapi.php	/^		$this->_path = '';$/;"	v
+_port	sphinxapi.php	/^		$this->_port		= 9312;$/;"	v
+_port	sphinxapi.php	/^		$this->_port = ( $port==0 ) ? 9312 : $port;$/;"	v
+_port	sphinxapi.php	/^	var $_port;			\/\/\/< searchd port (default is 9312)$/;"	v
+_ranker	sphinxapi.php	/^		$this->_ranker		= SPH_RANK_PROXIMITY_BM25;$/;"	v
+_ranker	sphinxapi.php	/^		$this->_ranker = $ranker;$/;"	v
+_ranker	sphinxapi.php	/^	var $_ranker;		\/\/\/< ranking mode (default is SPH_RANK_PROXIMITY_BM25)$/;"	v
+_rankexpr	sphinxapi.php	/^		$this->_rankexpr	= "";$/;"	v
+_rankexpr	sphinxapi.php	/^		$this->_rankexpr = $rankexpr;$/;"	v
+_rankexpr	sphinxapi.php	/^	var $_rankexpr;		\/\/\/< ranking mode expression (for SPH_RANK_EXPR)$/;"	v
+_reqs	sphinxapi.php	/^		$this->_reqs		= array ();	\/\/ requests storage (for multi-query case)$/;"	v
+_reqs	sphinxapi.php	/^		$this->_reqs = array (); \/\/ just in case it failed too early$/;"	v
+_reqs	sphinxapi.php	/^		$this->_reqs = array ();$/;"	v
+_reqs	sphinxapi.php	/^	var $_reqs;			\/\/\/< requests array for multi-query$/;"	v
+_retrycount	sphinxapi.php	/^		$this->_retrycount	= 0;$/;"	v
+_retrycount	sphinxapi.php	/^		$this->_retrycount = $count;$/;"	v
+_retrycount	sphinxapi.php	/^	var $_retrycount;	\/\/\/< distributed retries count$/;"	v
+_retrydelay	sphinxapi.php	/^		$this->_retrydelay	= 0;$/;"	v
+_retrydelay	sphinxapi.php	/^		$this->_retrydelay = $delay;$/;"	v
+_retrydelay	sphinxapi.php	/^	var $_retrydelay;	\/\/\/< distributed retries delay$/;"	v
+_select	sphinxapi.php	/^		$this->_select		= "*";$/;"	v
+_select	sphinxapi.php	/^		$this->_select = $select;$/;"	v
+_select	sphinxapi.php	/^	var $_select;		\/\/\/< select-list (attributes or expressions, with optional aliases)$/;"	v
+_socket	sphinxapi.php	/^			$this->_socket = false;$/;"	v
+_socket	sphinxapi.php	/^		$this->_socket		= false;$/;"	v
+_socket	sphinxapi.php	/^		$this->_socket = $fp;$/;"	v
+_socket	sphinxapi.php	/^		$this->_socket = false;$/;"	v
+_sort	sphinxapi.php	/^		$this->_sort		= SPH_SORT_RELEVANCE;$/;"	v
+_sort	sphinxapi.php	/^		$this->_sort = $mode;$/;"	v
+_sort	sphinxapi.php	/^	var $_sort;			\/\/\/< match sorting mode (default is SPH_SORT_RELEVANCE)$/;"	v
+_sortby	sphinxapi.php	/^		$this->_sortby		= "";$/;"	v
+_sortby	sphinxapi.php	/^		$this->_sortby = $sortby;$/;"	v
+_sortby	sphinxapi.php	/^	var $_sortby;		\/\/\/< attribute to sort by (defualt is "")$/;"	v
+_timeout	sphinxapi.php	/^		$this->_timeout		= 0;$/;"	v
+_timeout	sphinxapi.php	/^		$this->_timeout = $timeout;$/;"	v
+_timeout	sphinxapi.php	/^	var $_timeout;		\/\/\/< connect timeout$/;"	v
+_warning	sphinxapi.php	/^			$this->_warning = sprintf ( "searchd command v.%d.%d older than client's v.%d.%d, some options might not work",$/;"	v
+_warning	sphinxapi.php	/^			$this->_warning = substr ( $response, 4, $wlen );$/;"	v
+_warning	sphinxapi.php	/^		$this->_warning		= "";$/;"	v
+_warning	sphinxapi.php	/^		$this->_warning = $results[0]["warning"];$/;"	v
+_warning	sphinxapi.php	/^	var $_warning;		\/\/\/< last warning message$/;"	v
+_weights	sphinxapi.php	/^		$this->_weights		= array ();$/;"	v
+_weights	sphinxapi.php	/^		$this->_weights = $weights;$/;"	v
+_weights	sphinxapi.php	/^	var $_weights;		\/\/\/< per-field weights (default is 1 for all fields)$/;"	v
+a	search.php	/^  $a = array();$/;"	v
+a	sphinxapi.php	/^			$a =& $this->_anchor;$/;"	v
+ac	search.php	/^        $ac = substr_count($a['path'], '\/');$/;"	v
+aclass	search.php	/^                      $aclass = "";$/;"	v
+aclass	search.php	/^                      $aclass = "class='query'";$/;"	v
+aclass	search.php	/^            $aclass = "";$/;"	v
+aclass	search.php	/^            $aclass = "$aclass folder-menu";$/;"	v
+aclass	search.php	/^            $aclass = "query";$/;"	v
+aclass	search.php	/^          $aclass = "class='$aclass'";$/;"	v
+ae	search.php	/^        $ae = explode('\/', $a['path']);$/;"	v
+append_index	cli-search-hil.php	/^function append_index($s) {$/;"	f
+append_index	cli-search.php	/^function append_index($s) {$/;"	f
+append_index	search.php	/^function append_index($s) {$/;"	f
+attr	sphinxapi.php	/^				$attr = substr ( $response, $p, $len ); $p += $len;$/;"	v
+attrs	sphinxapi.php	/^			$attrs = array ();$/;"	v
+attrvals	sphinxapi.php	/^				$attrvals = array ();$/;"	v
+b	search.php	/^  $b = explode('?',$_SERVER['REQUEST_URI']);$/;"	v
+basicindextypes	conf.php	/^$basicindextypes = array($/;"	v
+bc	search.php	/^        $bc = substr_count($b['path'], '\/');$/;"	v
+be	search.php	/^        $be = explode('\/', $b['path']);$/;"	v
+build	multisearch-gv-hil.php	/^    $build = $indexdata['fid_to_build'][$fid];$/;"	v
+build	multisearch-gv-hil.php	/^    $build = $indexdata['fid_to_build'][$match];$/;"	v
+build	multisearch-gv.php	/^    $build = $indexdata['fid_to_build'][$match];$/;"	v
+buildnum	search.php	/^            $buildnum = $matches[2];$/;"	v
+buildtonode	multisearch-gv-hil.php	/^$buildtonode = array();$/;"	v
+c	cli-search-hil.php	/^    $c = count($paras);$/;"	v
+c	cli-search.php	/^    $c = count($paras);$/;"	v
+c	index.php	/^    $c = count($paras);$/;"	v
+c	search.php	/^        $c = 0;$/;"	v
+c	search.php	/^        $c = count($r['matches']);$/;"	v
+c	search.php	/^      $c = count($path_ids_indexbtn);$/;"	v
+c	sphinxapi.php	/^		$c = 1;$/;"	v
+c	sphinxapi.php	/^	$c = 0;$/;"	v
+chunk	sphinxapi.php	/^				$chunk = fread ( $fp, min ( 8192, $left ) );$/;"	v
+cl	cli-search-hil.php	/^$cl = new SphinxClient();$/;"	v
+cl	cli-search.php	/^$cl = new SphinxClient();$/;"	v
+cl	search.php	/^$cl = new SphinxClient();$/;"	v
+cl_indices	search.php	/^  $cl_indices = new SphinxClient();$/;"	v
+cmpslash	search.php	/^      function cmpslash($a, $b) {$/;"	f
+cmptext	search.php	/^      function cmptext($a, $b) {$/;"	f
+cnum	search.php	/^  $cnum = count($suggestions);$/;"	v
+con	update-sphinx-files.php	/^$con = mysqli_connect("localhost","root","oracle","fileindexdb");$/;"	v
+contextlines	search.php	/^            $contextlines = explode("\\n", $sample);$/;"	v
+count	count-searches.php	/^$count = fgets($datei,1000);$/;"	v
+count	count-searches.php	/^$count=$count + 1 ;$/;"	v
+count	counter.php	/^$count = fgets($datei,1000);$/;"	v
+count	counter.php	/^$count=$count + 1 ;$/;"	v
+count	showcounter.php	/^$count = fgets($datei,1000);$/;"	v
+createSomeMenu	js/jQuery-contextMenu/test/integration/html/async-create.html	/^    function createSomeMenu() {$/;"	f
+created	search.php	/^      $created = array();$/;"	v
+ctext	search.php	/^        $ctext = "<span class='indexhits'>$c+<\/span>";$/;"	v
+ctext	search.php	/^        $ctext = "<span class='indexhits'>$c<\/span>";$/;"	v
+ctext	search.php	/^      $ctext = "";$/;"	v
+currentOffset	search.php	/^    $currentOffset = ($currentPage -1)* $CONF['page_size'];$/;"	v
+currentOffset	search.php	/^    $currentOffset = 0;$/;"	v
+currentPage	search.php	/^    $currentPage = 1;$/;"	v
+currentPage	search.php	/^    $currentPage = intval($_GET['page']);$/;"	v
+dataForSVG	search.php	/^      $dataForSVG = array();$/;"	v
+datei	count-searches.php	/^$datei = fopen("countsearches.txt","r");$/;"	v
+datei	count-searches.php	/^$datei = fopen("countsearches.txt","w");$/;"	v
+datei	counter.php	/^$datei = fopen("countlog.txt","r");$/;"	v
+datei	counter.php	/^$datei = fopen("countlog.txt","w");$/;"	v
+datei	showcounter.php	/^$datei = fopen("countlog.txt","r");$/;"	v
+db	cli-search-hil.php	/^$db = mysqli_connect($CONF['mysql_host'],$CONF['mysql_username'],$CONF['mysql_password']) or die("ERROR: unable to connect to database");$/;"	v
+db	cli-search.php	/^$db = mysqli_connect($CONF['mysql_host'],$CONF['mysql_username'],$CONF['mysql_password']) or die("ERROR: unable to connect to database");$/;"	v
+db	clone-file-tables-with-shortened-path.php	/^$db = mysqli_connect($CONF['mysql_host'],$CONF['mysql_username'],$CONF['mysql_password']) or die("ERROR: unable to connect to database");$/;"	v
+db	multisearch-gv-hil.php	/^$db = mysqli_connect($CONF['mysql_host'],$CONF['mysql_username'],$CONF['mysql_password']) or die("ERROR: unable to connect to database");$/;"	v
+db	multisearch-gv.php	/^$db = mysqli_connect($CONF['mysql_host'],$CONF['mysql_username'],$CONF['mysql_password']) or die("ERROR: unable to connect to database");$/;"	v
+db	search.php	/^$db = mysqli_connect($CONF['mysql_host'],$CONF['mysql_username'],$CONF['mysql_password']) or die("ERROR: unable to connect to database");$/;"	v
+dc	search.php	/^        $dc = count($de);$/;"	v
+de	search.php	/^        $de = explode('\/', $fp);$/;"	v
+descriptorspec	runcommand.php	/^  $descriptorspec = array(array("pipe", "r"), array("pipe", "w"), array("pipe", "w"));$/;"	v
+descriptorspec	search.php	/^        $descriptorspec = array(array("pipe", "r"), array("pipe", "w"), array("pipe", "w"));$/;"	v
+descriptorspec	test.php	/^  $descriptorspec = array(array("pipe", "r"), array("pipe", "w"), array("pipe", "w"));$/;"	v
+dn	search.php	/^        $dn = dirname($fp);$/;"	v
+doc	sphinxapi.php	/^					$doc = sphFixUint($doc);$/;"	v
+doc	sphinxapi.php	/^					$doc = sphUnpackU64 ( substr ( $response, $p, 8 ) ); $p += 8;$/;"	v
+e	search.php	/^                $e = htmlentities($rest);$/;"	v
+e	search.php	/^                $e = preg_replace_callback($/;"	v
+endr	search.php	/^  $endr = min($numberOfPages+1,$currentPage+8);$/;"	v
+endsWith	index.php	/^function endsWith($haystack, $needle) {$/;"	f
+env	runcommand.php	/^  $env = array();$/;"	v
+env	search.php	/^        $env = array();$/;"	v
+env	test.php	/^  $env = array();$/;"	v
+errno	sphinxapi.php	/^		$errno = 0;$/;"	v
+errornode	multisearch-gv-hil.php	/^  $errornode = "error_".$resultskey;$/;"	v
+errstr	sphinxapi.php	/^			$errstr = trim ( $errstr );$/;"	v
+errstr	sphinxapi.php	/^		$errstr = "";$/;"	v
+extraclass	search.php	/^      $extraclass = ' current';$/;"	v
+extraclass	search.php	/^      $extraclass = '';$/;"	v
+fields	sphinxapi.php	/^			$fields = array ();$/;"	v
+files	update-sphinx-files.php	/^$files = shell_exec("\/home\/shane\/scripts\/sphinx listf ".$index_name);$/;"	v
+firstkey	search.php	/^    $firstkey = key($suggestions);$/;"	v
+firstval	search.php	/^    $firstval = $suggestions[$firstkey];$/;"	v
+flags	sphinxapi.php	/^		$flags = 1; \/\/ remove spaces$/;"	v
+fp	search.php	/^        $fp = $d['path'];$/;"	v
+fp	sphinxapi.php	/^			$fp = @fsockopen ( $host, $port, $errno, $errstr );$/;"	v
+fp	sphinxapi.php	/^			$fp = @fsockopen ( $host, $port, $errno, $errstr, $this->_timeout );$/;"	v
+fpath	search.php	/^          $fpath = $matches[2];$/;"	v
+fpath	search.php	/^          $fpath = preg_replace("\/^\\\/([0-9A-Za-z-]+)(\\\/.*)\/", "$2", $restext);$/;"	v
+from	sphinxapi.php	/^		$from = array ( '\\\\', '(',')','|','-','!','@','~','"','&', '\/', '^', '$', '=' );$/;"	v
+ftable	search.php	/^    $ftable = str_replace('index', '', $n['indiceslist']).'table';$/;"	v
+fullpath	cli-search-hil.php	/^      $fullpath = $row['text'];$/;"	v
+fullpath	search.php	/^          $fullpath = $row['text'];$/;"	v
+fullpath	search.php	/^        $fullpath = $row['text'];$/;"	v
+fullsgv	search.php	/^          $fullsgv = stream_get_contents($pipes[1]);$/;"	v
+fullsgv	test.php	/^    $fullsgv = stream_get_contents($pipes[1]);$/;"	v
+getLongestWord	cli-search-hil.php	/^function getLongestWord($q) {$/;"	f
+getLongestWord	cli-search.php	/^function getLongestWord($q) {$/;"	f
+getidfromdataline	multisearch-gv-hil.php	/^function getidfromdataline($dataline) {$/;"	f
+getnodefromdataline	multisearch-gv-hil.php	/^function getnodefromdataline($dataline) {$/;"	f
+getpathfromdataline	multisearch-gv-hil.php	/^function getpathfromdataline($dataline) {$/;"	f
+getsvg	multisearch-gv-hil.php	/^function getsvg($partgv) {$/;"	f
+getsvg	multisearch-gv.php	/^function getsvg($partgv) {$/;"	f
+getsvg	search.php	/^      function getsvg($partgv) {$/;"	f
+getsvg	test.php	/^function getsvg($partgv) {$/;"	f
+gvfn	search.php	/^          $gvfn = $gvfn.'\/'.$de[$i];$/;"	v
+gvfn	search.php	/^        $gvfn = '';$/;"	v
+gvs	multisearch-gv-hil.php	/^$gvs = '';$/;"	v
+gvs	multisearch-gv.php	/^$gvs = '';$/;"	v
+gvs	search.php	/^      $gvs = "";$/;"	v
+h	sphinxapi.php	/^			$h = 4294967295.0 - $h;$/;"	v
+h	sphinxapi.php	/^			$h = 4294967296.0 - $h;$/;"	v
+h	sphinxapi.php	/^			$h = bcdiv ( $v, 4294967296, 0 );$/;"	v
+h	sphinxapi.php	/^		$h = $hi*2328 + (int)($m\/4294967296);$/;"	v
+h	sphinxapi.php	/^		$h = ((int)($hi \/ $C) << 32) + (int)($lo \/ $C);$/;"	v
+h	sphinxapi.php	/^		$h = bcdiv ( $v, "4294967296", 0 );$/;"	v
+h	sphinxapi.php	/^	$h = $hi*2328.0 + $q; \/\/ (10 ^ 13) \/ (1 << 32) = 2328$/;"	v
+h	sphinxapi.php	/^	$h = $hi*2328.0 + $q;$/;"	v
+h	sphinxapi.php	/^	$h = $q*4294967296.0 + $r*429.0 + $mq;$/;"	v
+h	sphinxapi.php	/^	$h = sprintf ( "%.0f", $h );$/;"	v
+handle	search.php	/^  $handle = curl_init($url);$/;"	v
+hashgvfn	search.php	/^          $hashgvfn = hash('crc32', $gvfn);$/;"	v
+header	sphinxapi.php	/^		$header = fread ( $fp, 8 );$/;"	v
+hi	sphinxapi.php	/^		$hi = (int)substr ( $v, 0, $p );$/;"	v
+hi	sphinxapi.php	/^		$hi = ~$hi;$/;"	v
+hi	sphinxapi.php	/^	$hi = (float)$hi;$/;"	v
+hi	sphinxapi.php	/^	$hi = (float)substr($v, 0, $p);$/;"	v
+hi	sphinxapi.php	/^	$hi = abs((float)substr($v, 0, $p));$/;"	v
+hi	sphinxapi.php	/^	$hi = sprintf ( "%u", $hi );$/;"	v
+hilnode	multisearch-gv-hil.php	/^      $hilnode = $indexdata['build_to_hilnode'][$build];$/;"	v
+host	sphinxapi.php	/^			$host = $this->_host;$/;"	v
+host	sphinxapi.php	/^			$host = $this->_path;$/;"	v
+httpCode	search.php	/^  $httpCode = curl_getinfo($handle, CURLINFO_HTTP_CODE);$/;"	v
+i	search.php	/^        $i = 0;$/;"	v
+ids	cli-search-hil.php	/^    $ids = array_keys($res["matches"]);$/;"	v
+ids	cli-search-hil.php	/^  $ids = $path_ids;$/;"	v
+ids	cli-search-hil.php	/^  $ids = null;$/;"	v
+ids	cli-search.php	/^    $ids = array_keys($res["matches"]);$/;"	v
+ids	cli-search.php	/^  $ids = $path_ids;$/;"	v
+ids	cli-search.php	/^  $ids = null;$/;"	v
+ids	search.php	/^      $ids = array_keys($res["matches"]);$/;"	v
+ids	search.php	/^    $ids = array_slice($path_ids, $currentOffset, $CONF['page_size']);$/;"	v
+idx	sphinxapi.php	/^			$idx = -1;$/;"	v
+index	cli-search-hil.php	/^    $index = $istr;$/;"	v
+index	cli-search-hil.php	/^    $index = $paras[1];$/;"	v
+index	cli-search-hil.php	/^    $index = '';$/;"	v
+index	cli-search-hil.php	/^  $index = 'packages';$/;"	v
+index	cli-search-hil.php	/^  $index = isset($_GET['index'])?$_GET['index']:'';$/;"	v
+index	cli-search.php	/^    $index = $istr;$/;"	v
+index	cli-search.php	/^    $index = $paras[1];$/;"	v
+index	cli-search.php	/^    $index = '';$/;"	v
+index	cli-search.php	/^  $index = 'packages';$/;"	v
+index	cli-search.php	/^  $index = isset($_GET['index'])?$_GET['index']:'';$/;"	v
+index	index.php	/^    $index = $paras[1];$/;"	v
+index	index.php	/^    $index = '';$/;"	v
+index	index.php	/^  $index = isset($_GET['index'])?$_GET['index']:'';$/;"	v
+index	multisearch-gv-hil.php	/^    $index = $errortype['index'];$/;"	v
+index	multisearch-gv-hil.php	/^  $index = trim(preg_replace('\/^([^:]+):.*$\/','\\1',$rawresult));$/;"	v
+index	multisearch-gv.php	/^    $index = $errortype['index'];$/;"	v
+index	multisearch-gv.php	/^  $index = trim(preg_replace('\/^([^:]+):.*$\/','\\1',$rawresult));$/;"	v
+index	search.php	/^    $index = $istr;$/;"	v
+index	search.php	/^  $index = $_GET['index'];$/;"	v
+index	search.php	/^  $index = '';$/;"	v
+index	search.php	/^  $index = 'packages';$/;"	v
+index_name	update-sphinx-files.php	/^$index_name = $argv[1];$/;"	v
+index_path_query	search.php	/^      $index_path_query = 'SELECT id FROM '.$ftable.' WHERE minimised COLLATE UTF8_GENERAL_CI LIKE "%$qpathsub%"';$/;"	v
+indexlist	cli-search-hil.php	/^$indexlist = $indextypes[$index]['indiceslist'];$/;"	v
+indexlist	cli-search.php	/^$indexlist = $indextypes[$index]['indiceslist'];$/;"	v
+indexlist	search.php	/^$indexlist = $indextypes[$index]['indiceslist'];$/;"	v
+indextypes	cli-search-hil.php	/^  $indextypes = array_merge($indextypes, $shaneindextypes);$/;"	v
+indextypes	cli-search.php	/^  $indextypes = array_merge($indextypes, $shaneindextypes);$/;"	v
+indextypes	conf.php	/^  $indextypes = array_merge($indextypes, $shaneindextypes);$/;"	v
+indextypes	conf.php	/^$indextypes = $basicindextypes;$/;"	v
+indextypes	conf.php	/^$indextypes = array($/;"	v
+indextypes	search.php	/^  $indextypes = array_merge($indextypes, $shaneindextypes);$/;"	v
+indicesdata	multisearch-gv-hil.php	/^$indicesdata = array();$/;"	v
+indicesdata	multisearch-gv.php	/^$indicesdata = array();$/;"	v
+indicesdiv	search.php	/^  $indicesdiv = '';$/;"	v
+isBadUrl	search.php	/^function isBadUrl($url) {$/;"	f
+items	search.php	/^        $items = array_filter(explode("\/", $restext));$/;"	v
+job	search.php	/^            $job = $matches[1];$/;"	v
+job	search.php	/^            $job = str_replace('-','_',$job);$/;"	v
+joburl	search.php	/^            $joburl = "http:\/\/jenkins\/job\/$job\/$buildnum\/console";$/;"	v
+l	sphinxapi.php	/^			$l  = $l % $C;$/;"	v
+l	sphinxapi.php	/^			$l = 4294967296.0 - $l;$/;"	v
+l	sphinxapi.php	/^			$l = bcmod ( $v, 4294967296 );$/;"	v
+l	sphinxapi.php	/^		$l = $m % 4294967296;$/;"	v
+l	sphinxapi.php	/^		$l = (($hi % $C) << 32) + ($lo % $C);$/;"	v
+l	sphinxapi.php	/^		$l = 0;$/;"	v
+l	sphinxapi.php	/^		$l = bcmod ( $v, "4294967296" );$/;"	v
+l	sphinxapi.php	/^	$l = $m - $mq*10000000.0 + $c;$/;"	v
+l	sphinxapi.php	/^	$l = $m - $mq*10000000.0;$/;"	v
+l	sphinxapi.php	/^	$l = $m - ($q * 4294967296.0);$/;"	v
+l	sphinxapi.php	/^	$l = $m - ($q*4294967296.0);$/;"	v
+l	sphinxapi.php	/^	$l = sprintf ( "%07.0f", $l );$/;"	v
+label	multisearch-gv-hil.php	/^      $label = "hil $hilnode";$/;"	v
+label	search.php	/^                $label = substr($label, 0, ($maxlen - 1)) . '…';$/;"	v
+label	search.php	/^            $label=$de[$i];$/;"	v
+label	search.php	/^            $label=htmlentities($label);$/;"	v
+labelextras	search.php	/^              $labelextras = "";$/;"	v
+labelextras	search.php	/^              $labelextras = ", color=\\"#ddaa00\\", fontcolor=\\"#0077ff\\", fillcolor=\\"#eeeeee\\", style=\\"filled,rounded\\", peripheries=\\"1\\"";$/;"	v
+lastnode	multisearch-gv-hil.php	/^    $lastnode = $nodename;$/;"	v
+lastnode	multisearch-gv-hil.php	/^  $lastnode = $errornode;$/;"	v
+lastnode	multisearch-gv.php	/^    $lastnode = $nodename;$/;"	v
+lastnode	multisearch-gv.php	/^  $lastnode = "error_".$resultskey;$/;"	v
+left	sphinxapi.php	/^			$left = $len;$/;"	v
+len	search.php	/^        $len = count($items);$/;"	v
+len	sphinxapi.php	/^		$len = 0;$/;"	v
+len	sphinxapi.php	/^		$len = 8+strlen($req);$/;"	v
+len	sphinxapi.php	/^		$len = strlen($req);$/;"	v
+liclass	search.php	/^  $liclass = '';$/;"	v
+liclass	search.php	/^  $liclass = 'trans';$/;"	v
+line	update-sphinx-files.php	/^  $line = strtok( $separator );$/;"	v
+line	update-sphinx-files.php	/^$line = strtok($files, $separator);$/;"	v
+linenum	search.php	/^              $linenum = preg_replace('\/(^\\d+):.*\/','\\1',$contextline);$/;"	v
+link	search.php	/^        $link = htmlentities(str_replace('$id',$row['id'],$CONF['link_format']));$/;"	v
+linktoself	search.php	/^function linktoself($params,$selflink= '') {$/;"	f
+lo	sphinxapi.php	/^		$lo = (int)substr ( $v, $p );$/;"	v
+lo	sphinxapi.php	/^		$lo = ~$lo;$/;"	v
+lo	sphinxapi.php	/^	$lo = (float)$lo;$/;"	v
+lo	sphinxapi.php	/^	$lo = (float)substr($v, $p);$/;"	v
+lo	sphinxapi.php	/^	$lo = abs((float)substr($v, $p));$/;"	v
+lo	sphinxapi.php	/^	$lo = sprintf ( "%u", $lo );$/;"	v
+location	sphinxapi.php	/^				$location = "{$this->_host}:{$this->_port}";$/;"	v
+location	sphinxapi.php	/^				$location = $this->_path;$/;"	v
+longestWord	cli-search-hil.php	/^      $longestWord = $word;$/;"	v
+longestWord	cli-search-hil.php	/^  $longestWord = '';$/;"	v
+longestWord	cli-search.php	/^      $longestWord = $word;$/;"	v
+longestWord	cli-search.php	/^  $longestWord = '';$/;"	v
+longestWord	search.php	/^    $longestWord = $word;$/;"	v
+longestWord	search.php	/^$longestWord = '';$/;"	v
+longestWordLength	cli-search-hil.php	/^      $longestWordLength = strlen($word);$/;"	v
+longestWordLength	cli-search-hil.php	/^  $longestWordLength = 0;$/;"	v
+longestWordLength	cli-search.php	/^      $longestWordLength = strlen($word);$/;"	v
+longestWordLength	cli-search.php	/^  $longestWordLength = 0;$/;"	v
+longestWordLength	search.php	/^    $longestWordLength = strlen($word);$/;"	v
+longestWordLength	search.php	/^$longestWordLength = 0;$/;"	v
+m	sphinxapi.php	/^		$m = $lo + $hi*1316134912;$/;"	v
+m	sphinxapi.php	/^	$m = $lo + $hi*1316134912.0; \/\/ (10 ^ 13) % (1 << 32) = 1316134912$/;"	v
+m	sphinxapi.php	/^	$m = $lo + $hi*1316134912.0;$/;"	v
+m	sphinxapi.php	/^	$m = $lo + $r*4967296.0;$/;"	v
+matchdata	cli-search-hil.php	/^$matchdata = array();$/;"	v
+matchdatalines	multisearch-gv-hil.php	/^  $matchdatalines = explode(' ', preg_replace('\/^([^:]+):([^:]*):.*$\/','\\2',$rawresult));$/;"	v
+matches	multisearch-gv-hil.php	/^  $matches = array_map('getidfromdataline', $matchdatalines);$/;"	v
+matches	multisearch-gv.php	/^  $matches = array_filter(array_map('trim', $matches));$/;"	v
+matches	multisearch-gv.php	/^  $matches = explode(' ', preg_replace('\/^([^:]+):([^:]*):.*$\/','\\2',$rawresult));$/;"	v
+matches	search.php	/^          $matches = array_filter($pathwords, function($var) use ($im) { return strlen($var) > 1 && preg_match('\/^.*'.$var.'.*$\/i', $im); });$/;"	v
+matchingterms	search.php	/^                    $matchingterms = array_filter($words, function($var) use ($term) { return strlen($var) > 3 && preg_match('\/^.*'.$var.'.*$\/i', $term); });$/;"	v
+max	sphinxapi.php	/^		$max = strlen($response); \/\/ max position for checks, to protect against broken responses$/;"	v
+maxlen	search.php	/^              $maxlen = 10;$/;"	v
+maxlen	search.php	/^              $maxlen = 30;$/;"	v
+message	sphinxapi.php	/^				$message = substr ( $response, $p, $len ); $p += $len;$/;"	v
+minimisestring	minimisestring.php	/^function minimisestring($s) {$/;"	f
+minimisestringres	search.php	/^    function minimisestringres($s) {$/;"	f
+mode	cli-search-hil.php	/^  $mode = SPH_MATCH_ALL;$/;"	v
+mode	cli-search-hil.php	/^  $mode = SPH_MATCH_EXTENDED2;$/;"	v
+mode	cli-search.php	/^  $mode = SPH_MATCH_ALL;$/;"	v
+mode	cli-search.php	/^  $mode = SPH_MATCH_EXTENDED2;$/;"	v
+mode	search.php	/^  $mode = SPH_MATCH_ALL;$/;"	v
+mode	search.php	/^  $mode = SPH_MATCH_EXTENDED2;$/;"	v
+mode	search.php	/^$mode = SPH_MATCH_ALL;$/;"	v
+mode	sphinxapi.php	/^			$mode==SPH_SORT_ATTR_ASC ||$/;"	v
+mode	sphinxapi.php	/^			$mode==SPH_SORT_ATTR_DESC ||$/;"	v
+mode	sphinxapi.php	/^			$mode==SPH_SORT_EXPR );$/;"	v
+mode	sphinxapi.php	/^			$mode==SPH_SORT_EXTENDED ||$/;"	v
+mode	sphinxapi.php	/^			$mode==SPH_SORT_RELEVANCE ||$/;"	v
+mode	sphinxapi.php	/^			$mode==SPH_SORT_TIME_SEGMENTS ||$/;"	v
+mq	sphinxapi.php	/^	$mq = floor($m\/10000000.0);$/;"	v
+myips	premium.php	/^$myips = array("::1", "127.0.0.1", "127.0.1.1", "172.26.100.168"); \/\/ cyclops$/;"	v
+mysql_query	multisearch-gv-hil.php	/^    $mysql_query = 'SELECT minimised FROM '.$indexname.'table WHERE id IN ($ids)';$/;"	v
+mysql_query	multisearch-gv.php	/^  $mysql_query = 'SELECT minimised FROM '.$indexname.'table WHERE id IN ($ids)';$/;"	v
+neg	sphinxapi.php	/^		$neg = "-";$/;"	v
+neg	sphinxapi.php	/^	$neg = "";$/;"	v
+nerrors	search.php	/^    $nerrors = 0;$/;"	v
+nmatches	cli-search-hil.php	/^  $nmatches = $thematches?count($res['matches']):0;$/;"	v
+nmatches	cli-search.php	/^  $nmatches = $thematches?count($res['matches']):0;$/;"	v
+nmatches	search.php	/^    $nmatches = $thematches?count($res['matches']):0;$/;"	v
+nmatches	search.php	/^    $nmatches = count($path_ids);$/;"	v
+nodename	multisearch-gv-hil.php	/^      $nodename = $indexname."_".$build."_".$event;$/;"	v
+nodename	multisearch-gv.php	/^      $nodename = $indexname."_".$build."_".$event;$/;"	v
+nodenumber	cli-search-hil.php	/^      $nodenumber = trim(runcommand("\/var\/www\/croogle\/get-node-number.sh", $fullpath, '\/var\/www\/croogle'));$/;"	v
+nodes	cli-search-hil.php	/^$nodes = array();$/;"	v
+normalized	sphinxapi.php	/^			$normalized = $len ? substr ( $response, $pos, $len ) : "";$/;"	v
+nreqs	sphinxapi.php	/^		$nreqs = count($this->_reqs);$/;"	v
+numberOfPages	search.php	/^      $numberOfPages = ceil($res['total']\/$CONF['page_size']);$/;"	v
+numberOfPages	search.php	/^    $numberOfPages = ceil($nmatches\/$CONF['page_size']);$/;"	v
+nvalues	sphinxapi.php	/^						$nvalues = $val;$/;"	v
+oldbuild	multisearch-gv-hil.php	/^    $oldbuild = $build;$/;"	v
+oldbuild	multisearch-gv-hil.php	/^  $oldbuild = "buildnum";$/;"	v
+oldbuild	multisearch-gv.php	/^    $oldbuild = $build;$/;"	v
+oldbuild	multisearch-gv.php	/^  $oldbuild = null;$/;"	v
+oldsuggestions	search.php	/^      $oldsuggestions = $suggestions + $oldsuggestions;$/;"	v
+oldsuggestions	search.php	/^    $oldsuggestions = $suggestions;$/;"	v
+p	sphinxapi.php	/^		$p = 0; \/\/ current position$/;"	v
+p	sphinxapi.php	/^		$p = 0;$/;"	v
+p	sphinxapi.php	/^		$p = max ( 0, strlen($v) - 13 );$/;"	v
+p	sphinxapi.php	/^	$p = max(0, strlen($v) - 13);$/;"	v
+page	index.php	/^$page = isset($_GET['page'])?$_GET['page']:'';$/;"	v
+page	search.php	/^  $page = $_GET['page'];$/;"	v
+page	search.php	/^  $page = '';$/;"	v
+page_size	search.php	/^  $page_size = $_GET['page_size'];$/;"	v
+page_size	search.php	/^  $page_size = '';$/;"	v
+pagesString	search.php	/^function pagesString($currentPage,$numberOfPages,$postfix = '',$extrahtml ='') {$/;"	f
+pagesize	index.php	/^$pagesize = isset($_GET['pagesize'])?$_GET['pagesize']:'8';$/;"	v
+paras	cli-search-hil.php	/^    $paras = explode(';', $s);$/;"	v
+paras	cli-search.php	/^    $paras = explode(';', $s);$/;"	v
+paras	index.php	/^    $paras = explode(';', $s);$/;"	v
+parentorsib	search.php	/^                $parentorsib = $created[$prevhashgvfn.'child'].'p';$/;"	v
+parentorsib	search.php	/^                $parentorsib = $prevhashgvfn;$/;"	v
+path	multisearch-gv-hil.php	/^      $path = $results[$event]['paths'][$eventi];$/;"	v
+path_ids	cli-search-hil.php	/^$path_ids = array();$/;"	v
+path_ids	cli-search.php	/^$path_ids = array();$/;"	v
+path_ids	search.php	/^$path_ids = array();$/;"	v
+path_ids_indexbtn	search.php	/^    $path_ids_indexbtn = array();$/;"	v
+path_sql	cli-search-hil.php	/^  $path_sql = str_replace('$qpathsub',mysqli_real_escape_string($db,$qpathsub),$CONF['path_query']);$/;"	v
+path_sql	cli-search.php	/^  $path_sql = str_replace('$qpathsub',mysqli_real_escape_string($db,$qpathsub),$CONF['path_query']);$/;"	v
+path_sql	search.php	/^      $path_sql = str_replace('$qpathsub',mysqli_real_escape_string($db,$qpathsub),$index_path_query);$/;"	v
+path_sql	search.php	/^  $path_sql = str_replace('$qpathsub',mysqli_real_escape_string($db,$qpathsub),$CONF['path_query']);$/;"	v
+paths	cli-search-hil.php	/^$paths = array();$/;"	v
+paths	multisearch-gv-hil.php	/^  $paths = array_map('getpathfromdataline', $matchdatalines);$/;"	v
+pathwords	search.php	/^$pathwords  = explode(' ', $qpath);$/;"	v
+pathwords	search.php	/^$pathwords = array_filter(array_map('trim', $pathwords));$/;"	v
+pd	search.php	/^        $pd = $d;$/;"	v
+pddir	search.php	/^              $pddir = trim(dirname($pd['path']));$/;"	v
+pipes	runcommand.php	/^  $pipes = null;$/;"	v
+pipes	search.php	/^        $pipes = null;$/;"	v
+pipes	test.php	/^  $pipes = null;$/;"	v
+port	sphinxapi.php	/^			$port = $this->_port;$/;"	v
+port	sphinxapi.php	/^			$port = 0;$/;"	v
+port	sphinxapi.php	/^		$port = intval($port);$/;"	v
+pos	sphinxapi.php	/^		$pos = 0;$/;"	v
+premiumusers	premium.php	/^$premiumusers = array("shane", "rach");$/;"	v
+prevgvfn	search.php	/^          $prevgvfn = $gvfn;$/;"	v
+prevhashgvfn	search.php	/^          $prevhashgvfn = $hashgvfn;$/;"	v
+process	runcommand.php	/^  $process = proc_open($cmd, $descriptorspec, $pipes, $wd, $env);$/;"	v
+process	search.php	/^        $process = proc_open('\/var\/www\/croogle\/getsvg.sh', $descriptorspec, $pipes, '\/var\/www\/croogle', $env);$/;"	v
+process	test.php	/^  $process = proc_open('\/var\/www\/croogle\/getsvg.sh', $descriptorspec, $pipes, '\/media\/www\/croogle', $env);$/;"	v
+project	search.php	/^                    $project = $tr[1];$/;"	v
+project	search.php	/^          $project = $matches[1];$/;"	v
+project	search.php	/^          $project = preg_replace("\/^\\\/([0-9A-Za-z-]+)\\\/.*\/", "$1", $restext);$/;"	v
+project	search.php	/^        $project = ltrim(strtolower(preg_replace('\/[A-Z]\/', '-$0', $project)), '-');$/;"	v
+projects	cli-search-hil.php	/^$projects = array_filter(array_map('trim', $projects));$/;"	v
+projects	cli-search-hil.php	/^$projects = file('projects.txt');$/;"	v
+projects	cli-search.php	/^$projects = array_filter(array_map('trim', $projects));$/;"	v
+projects	cli-search.php	/^$projects = file('projects.txt');$/;"	v
+projects	search.php	/^$projects = array_filter(array_map('trim', $projects));$/;"	v
+projects	search.php	/^$projects = file('projects.txt');$/;"	v
+proxyjoburl	search.php	/^            $proxyjoburl = "http:\/\/localhost\/jenkins\/job\/$job\/$buildnum\/console";$/;"	v
+q	cli-search-hil.php	/^      $q = $paras[3];$/;"	v
+q	cli-search-hil.php	/^    $q = $s;$/;"	v
+q	cli-search-hil.php	/^  $q = isset($_GET['q'])?$_GET['q']:'';$/;"	v
+q	cli-search-hil.php	/^  $q = preg_replace('\/[^\\w~\\|\\(\\)\\^\\$\\?"\\\/=-]+\/',' ',trim(strtolower($q)));$/;"	v
+q	cli-search-hil.php	/^  $q = preg_replace('\/^\\~\/','',$q);$/;"	v
+q	cli-search-hil.php	/^  $q = trim(strtolower($q));$/;"	v
+q	cli-search.php	/^      $q = $paras[3];$/;"	v
+q	cli-search.php	/^    $q = $s;$/;"	v
+q	cli-search.php	/^  $q = isset($_GET['q'])?$_GET['q']:'';$/;"	v
+q	cli-search.php	/^  $q = preg_replace('\/[^\\w~\\|\\(\\)\\^\\$\\?"\\\/=-]+\/',' ',trim(strtolower($q)));$/;"	v
+q	cli-search.php	/^  $q = preg_replace('\/^\\~\/','',$q);$/;"	v
+q	cli-search.php	/^  $q = trim(strtolower($q));$/;"	v
+q	index.php	/^      $q = $paras[3];$/;"	v
+q	index.php	/^    $q = $s;$/;"	v
+q	index.php	/^  $q = isset($_GET['q'])?$_GET['q']:'';$/;"	v
+q	index.php	/^  $q = preg_replace('\/ OR \/',' | ',$q);$/;"	v
+q	index.php	/^  $q = preg_replace('\/[^\\w.~\\|\\(\\)\\^\\$\\?"\\\/=-]+\/',' ',trim(strtolower($q)));$/;"	v
+q	search.php	/^  $q = preg_replace('\/^\\~\/','',$q);$/;"	v
+q	search.php	/^$q = isset($_GET['q'])?$_GET['q']:'';$/;"	v
+q	search.php	/^$q = preg_replace('\/ OR \/',' | ',$q);$/;"	v
+q	search.php	/^$q = preg_replace('\/[^\\w~\\|\\(\\)\\^\\$\\?"\\\/=-]+\/',' ',trim(strtolower($q)));$/;"	v
+q	sphinxapi.php	/^	$q = floor($hi\/10000000.0);$/;"	v
+q	sphinxapi.php	/^	$q = floor($m \/ 4294967296.0);$/;"	v
+q	sphinxapi.php	/^	$q = floor($m\/4294967296.0);$/;"	v
+qo	search.php	/^    $qo = '--complex query--';$/;"	v
+qo	search.php	/^  $qo = $q;$/;"	v
+qpath	cli-search-hil.php	/^      $qpath = $paras[2];$/;"	v
+qpath	cli-search-hil.php	/^    $qpath = '';$/;"	v
+qpath	cli-search-hil.php	/^  $qpath = isset($_GET['qpath'])?$_GET['qpath']:'';$/;"	v
+qpath	cli-search-hil.php	/^  $qpath = trim(strtolower($q));$/;"	v
+qpath	cli-search.php	/^      $qpath = $paras[2];$/;"	v
+qpath	cli-search.php	/^    $qpath = '';$/;"	v
+qpath	cli-search.php	/^  $qpath = isset($_GET['qpath'])?$_GET['qpath']:'';$/;"	v
+qpath	cli-search.php	/^  $qpath = trim(strtolower($q));$/;"	v
+qpath	index.php	/^      $qpath = $paras[2];$/;"	v
+qpath	index.php	/^    $qpath = '';$/;"	v
+qpath	index.php	/^  $qpath = isset($_GET['qpath'])?$_GET['qpath']:'';$/;"	v
+qpath	index.php	/^  $qpath = preg_replace('\/ OR \/',' | ',$qpath);$/;"	v
+qpath	index.php	/^  $qpath = preg_replace('\/[^\\w.~\\|\\(\\)\\^\\$\\?"\\\/=-]+\/',' ',trim(strtolower($qpath)));$/;"	v
+qpath	search.php	/^$qpath = $_GET['qpath'];$/;"	v
+qpathsub	cli-search-hil.php	/^  $qpathsub = preg_replace('\/ +\/','%',$qpath);$/;"	v
+qpathsub	cli-search.php	/^  $qpathsub = preg_replace('\/ +\/','%',$qpath);$/;"	v
+qpathsub	search.php	/^  $qpathsub = preg_replace('\/ +\/','%',$qpath);$/;"	v
+qtype	search.php	/^  $qtype = $_GET['qtype'];$/;"	v
+qtype	search.php	/^  $qtype = '';$/;"	v
+query	multisearch-gv-hil.php	/^  $query = trim(preg_replace('\/^([^:]+):([^:]*):(.*)$\/','\\3',$rawresult));$/;"	v
+query	multisearch-gv.php	/^  $query = trim(preg_replace('\/^([^:]+):([^:]*):(.*)$\/','\\3',$rawresult));$/;"	v
+query_info	search.php	/^      $query_info = "<span class='greytext'>Retrieved <span class='bluetext'>$nmatches<\/span> of <span class='bluetext'>$res[total_found]<\/span> matches in $res[time] seconds<\/span>";$/;"	v
+queryfunc	search.php	/^            $queryfunc = "newpathquery";$/;"	v
+queryfunc	search.php	/^            $queryfunc = "newquery";$/;"	v
+r	search.php	/^      $r = $cl_indices->Query($q, $n['indiceslist']);$/;"	v
+r	search.php	/^  static $r;$/;"	v
+r	sphinxapi.php	/^	$r = $hi - $q*10000000.0;$/;"	v
+rachips	premium.php	/^$rachips = array("172.26.100.123"); \/\/ blackbird$/;"	v
+rawhilnodes	multisearch-gv-hil.php	/^  $rawhilnodes = array_map('getnodefromdataline', $matchdatalines);$/;"	v
+rawresults	multisearch-gv-hil.php	/^$rawresults = array();$/;"	v
+rawresults	multisearch-gv.php	/^$rawresults = array();$/;"	v
+rawurlencode	urlencode.sh	/^rawurlencode() {$/;"	f
+read	sphinxapi.php	/^		$read = strlen ( $response );$/;"	v
+req	sphinxapi.php	/^		$req  = pack ( "N", strlen($query) ) . $query; \/\/ req query$/;"	v
+req	sphinxapi.php	/^		$req = join ( "", $this->_reqs );$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "N", strlen($index) ) . $index;$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "NN", 0, $flags ); \/\/ mode=0, flags=$flags$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "NNNN", $this->_offset, $this->_limit, $this->_mode, $this->_ranker );$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnN", SEARCHD_COMMAND_EXCERPT, VER_COMMAND_EXCERPT, $len ) . $req; \/\/ add header$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnN", SEARCHD_COMMAND_FLUSHATTRS, VER_COMMAND_FLUSHATTRS, 0 ); \/\/ len=0$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnN", SEARCHD_COMMAND_KEYWORDS, VER_COMMAND_KEYWORDS, $len ) . $req; \/\/ add header$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnN", SEARCHD_COMMAND_UPDATE, VER_COMMAND_UPDATE, $len ) . $req; \/\/ add header$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnNN", SEARCHD_COMMAND_PERSIST, 0, 4, 1 );$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnNN", SEARCHD_COMMAND_STATUS, VER_COMMAND_STATUS, 4, 1 ); \/\/ len=4, body=1$/;"	v
+req	sphinxapi.php	/^		$req = pack ( "nnNNN", SEARCHD_COMMAND_SEARCH, VER_COMMAND_SEARCH, $len, 0, $nreqs ) . $req; \/\/ add header$/;"	v
+res	cli-search-hil.php	/^  $res = $cl->Query($q, $CONF['sphinx_index']);$/;"	v
+res	cli-search.php	/^  $res = $cl->Query($q, $CONF['sphinx_index']);$/;"	v
+res	search.php	/^    $res = $cl->Query($q, $CONF['sphinx_index']);$/;"	v
+res	sphinxapi.php	/^		$res = array ();$/;"	v
+res	sphinxapi.php	/^		$res = array();$/;"	v
+res	sphinxapi.php	/^		$res = substr ( $response, 4 ); \/\/ just ignore length, error handling, etc$/;"	v
+response	search.php	/^  $response = curl_exec($handle);$/;"	v
+response	sphinxapi.php	/^		$response = "";$/;"	v
+rest	search.php	/^                  $rest = substr($rest, 0, 147) . '...';$/;"	v
+rest	search.php	/^              $rest = preg_replace('\/^\\d+: *(.*)\/','\\1',$contextline);$/;"	v
+restext	search.php	/^        $restext = minimisestringres($fullpath);$/;"	v
+result	cli-search-hil.php	/^  $result = mysqli_query($db,$path_sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	cli-search-hil.php	/^  $result = mysqli_query($db,$sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	cli-search.php	/^  $result = mysqli_query($db,$path_sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	multisearch-gv-hil.php	/^    $result = mysqli_query($db,$sql); \/\/ or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	multisearch-gv-hil.php	/^  $result = array("index" => $index, "query" => $query, "matches" => $matches, "paths" => $paths);$/;"	v
+result	multisearch-gv.php	/^  $result = array("index" => $index, "query" => $query, "matches" => $matches);$/;"	v
+result	multisearch-gv.php	/^  $result = mysqli_query($db,$sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	search.php	/^      $result = mysqli_query($db,$path_sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	search.php	/^    $result = mysqli_query($db,$sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	search.php	/^  $result = mysqli_query($db,$path_sql) or die($CONF['debug']?("ERROR: mysql query failed: ".mysqli_error($db)):"ERROR: Please try later");$/;"	v
+result	sphinxapi.php	/^			$result =& $results[$ires];$/;"	v
+resultCount	search.php	/^      $resultCount = $res['total_found'];$/;"	v
+resultCount	search.php	/^    $resultCount = $nmatches;$/;"	v
+results	multisearch-gv-hil.php	/^$results = array();$/;"	v
+results	multisearch-gv.php	/^$results = array();$/;"	v
+results	sphinxapi.php	/^		$results = $this->RunQueries ();$/;"	v
+results	sphinxapi.php	/^		$results = array ();$/;"	v
+return_value	runcommand.php	/^    $return_value = proc_close($process);$/;"	v
+return_value	search.php	/^          $return_value = proc_close($process);$/;"	v
+return_value	test.php	/^    $return_value = proc_close($process);$/;"	v
+rlen	sphinxapi.php	/^		$rlen = strlen($response);$/;"	v
+row	cli-search-hil.php	/^      $row = $rows[$id];$/;"	v
+row	search.php	/^          $row = $rows[$id];$/;"	v
+row	search.php	/^        $row = $rows[$id];$/;"	v
+rows	cli-search-hil.php	/^    $rows = array();$/;"	v
+rows	search.php	/^      $rows = array();$/;"	v
+runcommand	runcommand.php	/^function runcommand($cmd, $stdin, $wd) {$/;"	f
+s	cli-search-hil.php	/^  $s = trim(strtolower($_GET['s']));$/;"	v
+s	cli-search.php	/^  $s = trim(strtolower($_GET['s']));$/;"	v
+s	index.php	/^  $s = $_GET['s'];$/;"	v
+s	index.php	/^  $s = preg_replace('\/ OR \/',' | ',$s);$/;"	v
+s	index.php	/^  $s = trim(strtolower($s));$/;"	v
+s	search.php	/^        $s = preg_replace("\/.txt$\/", "", $s);$/;"	v
+s	search.php	/^      $s = minimisestring($s);$/;"	v
+sample	search.php	/^          $sample = trim(runcommand("\/var\/www\/croogle\/getcontext.sh $fullpath $longestWord", "", '\/var\/www\/croogle'));$/;"	v
+sbarstr	index.php	/^    $sbarstr = $q;$/;"	v
+sbarstr	index.php	/^  $sbarstr = $s;$/;"	v
+sbarstr	index.php	/^  $sbarstr = ';'.$index.';'.$qpath.';'.$q;$/;"	v
+sc	search.php	/^          $sc = strcmp($ae[$i], $be[$i]);$/;"	v
+selflink	search.php	/^    $selflink = $_SERVER['SCRIPT_NAME'];$/;"	v
+selflink	search.php	/^    $selflink = '\/';$/;"	v
+separator	update-sphinx-files.php	/^$separator = "\\n";$/;"	v
+shaneindextypes	conf.php	/^$shaneindextypes = array($/;"	v
+shortpath	cli-search-hil.php	/^      $shortpath = $row['minimised'];$/;"	v
+sortedids	search.php	/^        $sortedids = array();$/;"	v
+sphFixUint	sphinxapi.php	/^function sphFixUint ( $value )$/;"	f
+sphPackI64	sphinxapi.php	/^function sphPackI64 ( $v )$/;"	f
+sphPackU64	sphinxapi.php	/^function sphPackU64 ( $v )$/;"	f
+sphUnpackI64	sphinxapi.php	/^function sphUnpackI64 ( $v )$/;"	f
+sphUnpackU64	sphinxapi.php	/^function sphUnpackU64 ( $v )$/;"	f
+sql	cli-search-hil.php	/^  $sql = str_replace('$ids',implode(',',$ids),$CONF['mysql_query']);$/;"	v
+sql	multisearch-gv-hil.php	/^    $sql = str_replace('$ids',implode(',',$indexdata['fids']),$mysql_query);$/;"	v
+sql	multisearch-gv.php	/^  $sql = str_replace('$ids',implode(',',$indexdata['fids']),$mysql_query);$/;"	v
+sql	search.php	/^    $sql = str_replace('$ids',implode(',',$ids),$CONF['mysql_query']);$/;"	v
+sqrtval	search.php	/^      $sqrtval = intval(sqrt(count($ids)));$/;"	v
+start	search.php	/^  $start = max(1,$currentPage-5);$/;"	v
+startsWith	cli-search-hil.php	/^function startsWith($haystack, $needle) {$/;"	f
+startsWith	cli-search.php	/^function startsWith($haystack, $needle) {$/;"	f
+startsWith	index.php	/^function startsWith($haystack, $needle) {$/;"	f
+stdout	runcommand.php	/^    $stdout = stream_get_contents($pipes[1]);$/;"	v
+stripnewlines	cli-search-hil.php	/^function stripnewlines($s) {$/;"	f
+stripnewlines	cli-search.php	/^function stripnewlines($s) {$/;"	f
+stripnewlines	search.php	/^function stripnewlines($s) {$/;"	f
+suggestions	search.php	/^      $suggestions = array_diff($suggestions, $oldsuggestions);$/;"	v
+suggestions	search.php	/^    $suggestions = array();$/;"	v
+suggestions	search.php	/^    $suggestions = array_filter(array_map('trim', $suggestions));$/;"	v
+suggestions	search.php	/^    $suggestions = preg_grep('\/'.$longestWord.'\/', file($index.'-suggestions.txt'));$/;"	v
+t1	sphinxapi.php	/^		$t1 = pack ( "f", $f ); \/\/ machine order$/;"	v
+tag	sphinxapi.php	/^		$tag = -1;$/;"	v
+term	search.php	/^                    $term = trim($matches[0]);$/;"	v
+thematches	cli-search-hil.php	/^  $thematches = (!empty($res) && array_key_exists('matches', $res) && is_array($res["matches"]))?$res['matches']:null;$/;"	v
+thematches	cli-search.php	/^  $thematches = (!empty($res) && array_key_exists('matches', $res) && is_array($res["matches"]))?$res['matches']:null;$/;"	v
+thematches	search.php	/^    $thematches = (!empty($res) && array_key_exists('matches', $res) && is_array($res["matches"]))?$res['matches']:null;$/;"	v
+thirdpartypackages	cli-search-hil.php	/^$thirdpartypackages = array_filter(array_map('trim', $thirdpartypackages));$/;"	v
+thirdpartypackages	cli-search-hil.php	/^$thirdpartypackages = file('thirdparty.txt');$/;"	v
+thirdpartypackages	cli-search.php	/^$thirdpartypackages = array_filter(array_map('trim', $thirdpartypackages));$/;"	v
+thirdpartypackages	cli-search.php	/^$thirdpartypackages = file('thirdparty.txt');$/;"	v
+thirdpartypackages	search.php	/^$thirdpartypackages = array_filter(array_map('trim', $thirdpartypackages));$/;"	v
+thirdpartypackages	search.php	/^$thirdpartypackages = file('thirdparty.txt');$/;"	v
+to	sphinxapi.php	/^		$to   = array ( '\\\\\\\\', '\\(','\\)','\\|','\\-','\\!','\\@','\\~','\\"', '\\&', '\\\/', '\\^', '\\$', '\\=' );$/;"	v
+tokenized	sphinxapi.php	/^			$tokenized = $len ? substr ( $response, $pos, $len ) : "";$/;"	v
+tra	search.php	/^                $tra = [["geoReporting", "geo-reporting"],$/;"	v
+user	multisearch-gv-hil.php	/^$user = '';$/;"	v
+user	multisearch-gv.php	/^$user = '';$/;"	v
+user	premium.php	/^  $user="rach";$/;"	v
+user	premium.php	/^  $user="shane";$/;"	v
+usertype	premium.php	/^  $usertype="premium";$/;"	v
+usertype	premium.php	/^  $usertype="standard";$/;"	v
+v	sphinxapi.php	/^			$v = bcadd ( "18446744073709551616", $v );$/;"	v
+v	sphinxapi.php	/^		$v = (int)$v;$/;"	v
+weight	sphinxapi.php	/^				$weight = sprintf ( "%u", $weight );$/;"	v
+word	sphinxapi.php	/^				$word = substr ( $response, $p, $len ); $p += $len;$/;"	v
+words	cli-search-hil.php	/^  $words  = explode(' ', $q);$/;"	v
+words	cli-search-hil.php	/^  $words = array_filter(array_map('trim', $words));$/;"	v
+words	cli-search.php	/^  $words  = explode(' ', $q);$/;"	v
+words	cli-search.php	/^  $words = array_filter(array_map('trim', $words));$/;"	v
+words	search.php	/^$words  = explode(' ', $q);$/;"	v
+words	search.php	/^$words = array_filter(array_map('trim', $words));$/;"	v

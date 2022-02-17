@@ -1,0 +1,6 @@
+* Dependencies
+$HOME/notes2018/ws/graphs/dependency_graph.gv
+
+/var/www/croogle/croogle-source-deps.gv
+
+/var/www/croogle/cli-multisearch.sh

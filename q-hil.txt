@@ -1,0 +1,2 @@
+;logs;log.txt;AssertionError: EBL is not initially uninitialised.
+;logs;log.txt;~RTCSeleniumError: Timed out waiting for css selector: #infoModal button.btn.btn-primary to be clickable -6146

@@ -1,0 +1,108 @@
+digraph tree
+{
+    // I think, can use ; or a newline to end a statement.
+
+    size="5,5"
+        //concentrate=true
+        damping=0.10
+        bgcolor="transparent"
+
+        fontname=Ubuntu
+        charset="latin1"
+        fixedsize=true
+        node [fontname=Ubuntu, fontcolor="#8888ff", style="filled", width=0, height=0, shape=box, color=gray, fillcolor="#dddddd", concentrate=true, peripheries="0"]
+        edge [color="#bbbbbb"]
+
+        // http://www.graphviz.org/doc/info/shapes.html
+        // These things do not show any text: c_point_2 [shape=point]
+        // It would say c_point_2 if any different shape
+        // c_point_2 [shape=rarrow]
+
+        // These are downwards edges (without arrowheads)
+        // a_dir_1 -> a_point_1 [arrowhead=none]
+
+        // Each top dir gets one of these.
+        a_dir_1 [label="top-dir\l" shape=box]
+
+        // Every child has a rank, a rank sibling and an arrow coming from
+        // the direction of the parent but may be from its previous sibling
+        // instead.
+
+        // Ranks are horizontal lines
+        {rank=same
+            a_point_1 [shape=point]
+                b_dir_1 [label="2nd top dir\l"]
+        }
+    a_dir_1 -> a_point_1 [arrowhead=none]
+        a_point_1 -> b_dir_1
+
+        {rank=same
+            b_point_1 [shape=point]
+                c_dir_1 [label="3rd top dir A\l"]
+        }
+    b_point_1 -> c_dir_1
+        b_dir_1 -> b_point_1 [arrowhead=none]
+
+        {rank=same
+            c_point_1 [shape=point]
+                d_dir_1 [label="File\l"]
+        }
+    c_point_1 -> d_dir_1
+
+    {rank=same
+        c_point_2 [shape=point]
+            d_dir_2 [label="Typisierung\l"]
+    }
+    c_point_2 -> d_dir_2
+
+    {rank=same
+        c_point_3 [shape=point]
+            d_dir_3 [label="Vertragsbasierte Programmierung\l"]
+    }
+    c_point_3 -> d_dir_3
+
+    {rank=same
+        c_point_4 [shape=point]
+            d_dir_4 [label="Fehlertolerante Programmierung\l"]
+    }
+    c_point_4 -> d_dir_4
+
+    {rank=same
+        c_point_5 [shape=point]
+            d_dir_5 [label="Portabilität\l"]
+    }
+    c_point_5 -> d_dir_5
+
+    {rank=same
+        c_point_6 [shape=point]
+            d_dir_6 [label="Dokumentation\l"]
+    }
+    c_point_6 -> d_dir_6
+
+    {rank=same
+        b_point_2 [shape=point]
+            c_dir_2 [label="Analytische Qualitätssicherung\l"]
+    }
+    b_point_2 -> c_dir_2
+        b_point_1 -> b_point_2 [arrowhead=none minlen=7]
+
+        // Generate these at the same time.
+        // These are all downwads arrows
+        // If these are removed, ass the c_dir_? nodes become top-level
+        c_dir_1 -> c_point_1
+        c_point_1 -> c_point_2
+        c_point_2 -> c_point_3
+        c_point_3 -> c_point_4
+        c_point_4 -> c_point_5
+        c_point_5 -> c_point_6 [arrowhead=none]
+
+        a_edir_1 [label="top-dir2\l" shape=box]
+
+        // Ranks are horizontal lines
+        {rank=same
+            a_epoint_1 [shape=point]
+                b_edir_1 [label="2nd top dir\l"]
+        }
+    a_edir_1 -> a_epoint_1 [arrowhead=none]
+        a_epoint_1 -> b_edir_1
+}

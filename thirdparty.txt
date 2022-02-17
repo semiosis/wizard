@@ -1,0 +1,10 @@
+cxxtest
+django-nose
+django-rest-framework-csv
+gtsam
+opencv
+protobuf
+python-coverage
+python-nose
+tcpsockets
+timesys
